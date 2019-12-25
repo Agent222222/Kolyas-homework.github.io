@@ -156,8 +156,10 @@ width: 280px;
 }
 
 .photo{
+    width: 60px;
+    height: 80px;
     display: flex;
-    margin: 10px 20px 60px 0px;
+    align-items: center;
 }
 
 .box{
