@@ -1,0 +1,235 @@
+body{
+    margin: 0px 0px 0px 0px;
+}
+
+@font-face {
+    font-family: 'WisdomScript';
+        
+        src:    url(https://nomail.com.ua/files/eot/fe0dc36743d17d7a1166c6e21f6536f1.eot?#iefix) format(embedded-opentype),
+                url(https://nomail.com.ua/files/woff/fe0dc36743d17d7a1166c6e21f6536f1.woff) format(woff),
+                url(https://nomail.com.ua/files/woff2/fe0dc36743d17d7a1166c6e21f6536f1.woff2) format(woff2);
+    }
+    
+@font-face { 
+    font-family: 'Wisdom-Script';  
+    src: local(Wisdom-Script), url(https://nomail.com.ua/files/woff/fe0dc36743d17d7a1166c6e21f6536f1.woff) format(woff); 
+}
+ 
+@font-face{
+    font-family: 'DroidSerif';
+    src: local(DroidSerif), url(../fonts/DroidSans.ttf);
+}
+
+.gold{
+    font-size: 21px;
+    color: #fed136;
+    font-family: 'Wisdom-Script'; 
+   font-style: normal;
+
+}
+
+.Name{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+.function{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-around;
+ width: 90%;
+ margin-top: 23px;
+}
+
+.big-one{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+}
+
+.List{
+    width: 53%;
+    justify-content: flex-end;
+}
+
+.href:hover{
+    color: #fed136;
+}
+
+.href{
+    display: inline-block;
+    color: #222222;
+    line-height: 1;
+    text-decoration:none;
+    cursor: pointer;
+    position:relative;
+}
+
+
+li{
+    list-style-type: none;
+    flex-direction: row;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+}
+
+.small-name{
+   color: #fed136;
+   font-family: 'Montserrat';
+   text-decoration: none;
+}
+
+.first{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    color: #898989;
+    font-family: 'DroidSerif';
+    font-style: italic;
+    font-family: 'Times New Roman';
+}
+
+.main-title{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0px 10px 0px;
+}
+
+.task{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.tosk{
+  text-align: center;
+  width:280px;
+}
+
+
+.big-two{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.one{
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+   justify-content: space-between;
+}
+
+.Title{ 
+    display: block;
+    margin-top: 106px;
+}
+
+.text{
+    color: #999999;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    margin-top: 15px;
+}
+.photo{
+    display: inline-block;
+    margin-bottom: 25px;
+}
+
+.block{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;;
+}
+
+.Begin{
+    color: #ffffff;
+    padding-top: 110px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.big-three{
+    background-image: url(../img/bacground-4.jpg);
+    top:300px;
+    justify-content: space-between;
+    margin-top: 120px;
+}
+.Big-begin{
+    margin-top: 110px;
+}
+
+.name{
+    height: 46.5px;
+    width: 435px;
+    margin-top: 34px;
+    border: none;
+    border-radius: 5px;
+}
+.name::-webkit-input-placeholder{
+    color: #bbbbbb; 
+    font-family: 'Montserrat';
+    font-weight: 100; 
+    padding-left: 30px;
+}
+
+#masege{
+    margin-top: 34px;
+    width: 436px;
+    height: 206px;
+    border-radius: 5px;
+    border: none;
+    padding: 8px 0px 0px 0px ;
+}
+
+.form-group{
+    width: 440px;
+}
+
+#masege::-webkit-input-placeholder{
+    color: #bbbbbb;  
+    padding-left: 8px;
+    display: block;
+    align-items: flex-start; 
+    font-family: 'Montserrat', 'sans-serif';
+    padding-left: 30px;
+}
+
+.form{
+    display: block;
+    margin-top: 40px;
+    align-items: center;
+}
+
+.inpt{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.btn{
+    height: 65px;
+    width: 240px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fed136;
+    font-size: 16px;
+    font-family: 'Montserrat';
+    color: #ffffff;
+    justify-content: center;
+}
+
+.click{
+    align-items: center;
+    padding: 30px 0px 115px 0px;
+}
+
+.end{
+   text-align: center;
+}
+
