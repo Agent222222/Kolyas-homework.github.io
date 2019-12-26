@@ -124,10 +124,6 @@ body{
         text-align: center;
     }
 
-    .people{
-        text-align: center;
-    }
-
     .small-list-3{
         width: 220px;
         display: flex;
@@ -328,8 +324,8 @@ body{
         max-width: 220px;
         text-align: center;
         margin-top: 40px;
-        margin-right: 10px;
-        margin-left: 10px;
+        margin-right: 20px;
+        margin-left: 20px;
     }
 
     
@@ -415,6 +411,7 @@ body{
         flex-direction: row;
         justify-content: center;
         align-items: flex-start;
+        width: auto;
     }
 
     .begin{
@@ -504,8 +501,8 @@ body{
         min-width: 170px;
         text-align: center;
         margin-top: 60px;
-        margin-right: 10px;
-        margin-left: 10px;
+        margin-right: 20px;
+        margin-left: 20px;
     }
 
 
