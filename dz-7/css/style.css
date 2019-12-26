@@ -1,308 +1,16 @@
-
-@media screen and (min-width: 850px){    
-    .Bid-List{
-        margin-bottom: 40px;
-    }
-
-    .Title{
+body{
+    margin: 0px 0px 0px 0px;
+}   
+.Title{
         display: flex;
         text-align: center;
         flex-direction: column;
     }
 
-    .small-list-2{
+    .list{
         display: flex;
         justify-content: center;
-    }
-
-    .small-list-3{
-        display: flex;
-        flex-direction: row;
-    }
-
-    .log{
-        color: #ffffff;
-        background-color: rgba(31, 281, 46, 0);
-        font-size: 15px;
-        border: 0px;
-        height: 36px;
-        width: 90px;
-        margin-top: 38px;
-        font-family: 'Montserrat', sans-serif;
-        font-weight: lighter;
-    }
-    .sing{
-        color: #ffffff;
-        background-color: rgba(31, 281, 46, 0);
-        border: 2px solid #ffffff;
-        font-size: 15px;
-        border-radius: 30px;
-        height: 36px;
-        width: 90px;
-        margin-top: 38px;
-        font-family: 'Montserrat', sans-serif;
-        font-weight: lighter;
-    }
-
-    .head{
-        display: flex;
-        flex-direction: row-reverse;
-        margin-bottom: 160px;
-        justify-content: center;
-    }
-
-    .begin{
-        background-image: url(../img/Vector\ Smart\ Object.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-    }
-    .first-name{
-        font-size: 18px;
-        color: #ffffff;
-        font-family: 'Montserrat', sans-serif;
-        margin: 0px 0px 0px 0px;
-    }
-    .first{
-        margin: 47px 45% 0px 0px;
-    }
-    
-    .main-slogan{
-        display: flex;
-        justify-content: center;
-    }
-    
-    .slogan{
-        font-size: 42px;
-        color: #ffffff;
-        font-family: 'Montserrat', sans-serif;
-        width: 500px;
-        text-align: center;
-        margin-bottom: 30px;
-    }
-    
-    span{
-        font-size: 22px;
-        color: #ffffff;
-        font-family: 'Roboto', sans-serif;
-    }
-    
-    .find-p{
-        background-color: #ff4e50;
-        color: #ffffff;
-        border: 0px;
-        border-radius: 30px;
-        font-size: 13px;
-        font-family: 'Montserrat', sans-serif;
-        padding: 11px 22px 11px 22px;
-        font-weight: lighter;
         margin-bottom: 234px;
-        margin-top: 35px;
-    }
-    
-    h5{
-        color: #333333;
-        font-size: 20px;
-        font-family: 'Montserrat', sans-serif;
-        margin-top: 71px;
-    }
-    
-    .small-list{
-        text-align: center;
-    }
-    
-    h6{
-        font-size: 14px;
-        color: #333333;
-        font-family: 'Montserrat', sans-serif;
-        margin: 0px 0px 0px 0px;
-    }
-    
-    .text{
-        color: #666666;
-        font-size: 14px;
-        font-family: 'Roboto', sans-serif;
-    }
-    
-    .people{
-        width: 220px;
-        text-align: center;
-        margin-top: 40px;
-        margin-right: 10px;
-        margin-left: 10px;
-    }
-
-    
-    .end-b{
-        color: #ff4e50;
-        border: 2px solid #ff4e50;
-        border-radius: 30px;
-        font-size: 14px;
-        padding: 13px 28px 13px 28px;
-        background-color: #ffffff;
-    }
-
-    .end-see{
-        display: flex;
-        justify-content: center;
-    }
-}
-
-@media screen and (max-width: 850px){
-    .Bid-List{
-        margin-bottom: 40px;
-    }
-
-    .Title{
-        display: flex;
-        text-align: center;
-        flex-direction: column;
-    }
-
-    .head{
-        display: flex;
-        flex-direction: row-reverse;
-        margin-bottom: 160px;
-        justify-content: center;
-    }
-
-    .log{
-        color: #ffffff;
-        background-color: rgba(31, 281, 46, 0);
-        font-size: 15px;
-        border: 0px;
-        height: 36px;
-        width: 90px;
-        font-family: 'Montserrat', sans-serif;
-        font-weight: lighter;
-    }
-    .sing{
-        color: #ffffff;
-        background-color: rgba(31, 281, 46, 0);
-        border: 2px solid #ffffff;
-        font-size: 15px;
-        border-radius: 30px;
-        height: 36px;
-        width: 90px;
-        font-family: 'Montserrat', sans-serif;
-        font-weight: lighter;
-    }
-
-    .register{
-        margin-top: 38px;
-    }
-
-    .small-list-3{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-       
-    }
-
-    .begin{
-        background-image: url(../img/Vector\ Smart\ Object.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-    }
-    .first-name{
-        margin-top: 0px;
-        font-size: 18px;
-        color: #ffffff;
-        font-family: 'Montserrat', sans-serif;
-    }
-
-    .first{
-        margin: 47px 45% 0px 0px;
-    }
-    
-    .main-slogan{
-        display: flex;
-        justify-content: center;
-    }
-    
-    .slogan{
-        font-size: 42px;
-        color: #ffffff;
-        font-family: 'Montserrat', sans-serif;
-        width: 500px;
-        text-align: center;
-        margin-bottom: 30px;
-    }
-    
-    span{
-        font-size: 22px;
-        color: #ffffff;
-        font-family: 'Roboto', sans-serif;
-    }
-    
-    .find-p{
-        background-color: #ff4e50;
-        color: #ffffff;
-        border: 0px;
-        border-radius: 30px;
-        font-size: 13px;
-        font-family: 'Montserrat', sans-serif;
-        padding: 11px 22px 11px 22px;
-        font-weight: lighter;
-        margin-bottom: 234px;
-        margin-top: 35px;
-    }
-    
-    h5{
-        color: #333333;
-        font-size: 18px;
-        font-family: 'Montserrat', sans-serif;
-        margin-top: 71px;
-    }
-    
-    .small-list{
-        text-align: center;
-    }
- 
-    h6{
-        font-size: 14px;
-        color: #333333;
-        font-family: 'Montserrat', sans-serif;
-        margin: 0px 0px 0px 0px;
-    }
-    
-    .text{
-        color: #666666;
-        font-size: 14px;
-        font-family: 'Roboto', sans-serif;
-    }
-    
-    .people{
-        width: 220px;
-        text-align: center;
-        margin-top: 60px;
-        margin-right: 10px;
-        margin-left: 10px;
-    }
-
-
-    .end-b{
-        color: #ff4e50;
-        border: 2px solid #ff4e50;
-        border-radius: 30px;
-        font-size: 14px;
-        padding: 13px 28px 13px 28px;
-        background-color: #ffffff;
-    }
-
-    .end-see{
-        display: flex;
-        justify-content: center;
-        margin-top: 30px;
-    }
-}
-
-@media screen and (max-width: 400px){
-    .Title{
-        display: flex;
-        text-align: center;
-        flex-direction: column;
     }
 
     .head{
@@ -310,6 +18,11 @@
         flex-direction: column;
         margin-bottom: 10px;
         justify-content: center;
+    }
+
+    .login{
+        text-decoration: none;
+        color: #ffffff;
     }
 
     .log{
@@ -356,8 +69,7 @@
 
     .first{
        display: flex;
-      justify-content: center; 
-      width: 100%;
+       justify-content: center; 
     }
     
     .main-slogan{
@@ -390,10 +102,15 @@
         font-family: 'Montserrat', sans-serif;
         padding: 11px 22px 11px 22px;
         font-weight: lighter;
-        margin-bottom: 234px;
         margin-top: 35px;
     }
     
+    .holiday{
+        text-decoration: none;
+        height: auto;
+        color: #ffffff;
+    }
+
     h5{
         color: #333333;
         font-size: 18px;
@@ -406,11 +123,17 @@
     .small-list{
         text-align: center;
     }
-    
+
+    .people{
+        text-align: center;
+    }
+
     .small-list-3{
+        width: 220px;
         display: flex;
+        align-items: flex-start;
         flex-direction: column;
-       align-items: center;
+        margin: 0px auto;
     }
 
     h6{
@@ -435,8 +158,377 @@
         color: #ff4e50;
         border: 2px solid #ff4e50;
         border-radius: 30px;
+        font-family: 'Montserrat';
         font-size: 14px;
-        padding: 13px 28px 13px 28px;
+        padding: 10px 28px 10px 28px;
+        background-color: #ffffff;
+        width: 60%;
+    }
+    
+    footer{
+        display: flex;
+        justify-content: center;
+    }
+
+    .end{
+        text-decoration: none;
+        color: #ff4e50;
+    }
+
+@media screen and (min-width: 900px){    
+    .Bid-List{
+        margin-bottom: 40px;
+    }
+
+    .Title{
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .small-list-2{
+        display: flex;
+        justify-content: center;
+        width: auto;
+    }
+
+    .small-list-3{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        width: auto;
+        margin: 0px 0px 0px 0px;
+    }
+
+    .register{
+        min-width: 250px;
+    }
+
+    .log{
+        color: #ffffff;
+        background-color: rgba(31, 281, 46, 0);
+        font-size: 15px;
+        border: 0px;
+        height: 36px;
+        width: 90px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: lighter;
+    }
+
+    .login{
+        text-decoration: none;
+        color: #ffffff;
+    }
+
+    .sing{
+        color: #ffffff;
+        background-color: rgba(31, 281, 46, 0);
+        border: 2px solid #ffffff;
+        font-size: 15px;
+        border-radius: 30px;
+        height: 36px;
+        width: 90px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: lighter;
+    }
+
+    .head{
+        display: flex;
+        flex-direction: row-reverse;
+        margin-bottom: 160px;
+        justify-content: center;
+    }
+
+    .begin{
+        background-image: url(../img/Vector\ Smart\ Object.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .first-name{
+        font-size: 18px;
+        color: #ffffff;
+        font-family: 'Montserrat', sans-serif;
+        margin: 0px 0px 0px 0px;
+    }
+    .first{
+        margin: 47px 45% 0px 0px;
+    }
+    
+    .main-slogan{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .slogan{
+        font-size: 42px;
+        color: #ffffff;
+        font-family: 'Montserrat', sans-serif;
+        width: 500px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    
+    span{
+        font-size: 22px;
+        color: #ffffff;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .list{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 234px;
+    }
+    
+    .find-p{
+        background-color: #ff4e50;
+        color: #ffffff;
+        border: 0px;
+        width: 220px;
+        border-radius: 30px;
+        font-size: 13px;
+        font-family: 'Montserrat', sans-serif;
+        padding: 11px 22px 11px 22px;
+        font-weight: lighter;
+        margin-top: 35px;
+    }
+    
+    .holiday{
+        text-decoration: none;
+        height: auto;
+        color: #ffffff;
+    }
+
+    h5{
+        color: #333333;
+        font-size: 20px;
+        font-family: 'Montserrat', sans-serif;
+        margin-top: 71px;
+    }
+    
+    .small-list{
+        text-align: center;
+    }
+    
+    h6{
+        font-size: 14px;
+        color: #333333;
+        font-family: 'Montserrat', sans-serif;
+        margin: 0px 0px 0px 0px;
+    }
+    
+    .text{
+        color: #666666;
+        font-size: 14px;
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    .people{
+        max-width: 220px;
+        text-align: center;
+        margin-top: 40px;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    
+    .end-b{
+        color: #ff4e50;
+        border: 2px solid #ff4e50;
+        border-radius: 30px;
+        font-size: 14px;
+        padding: 13px 30px 13px 30px;
+        width: auto;
         background-color: #ffffff;
     }
+
+    .end-see{
+        display: flex;
+        justify-content: center;
+    }
+
+    .end{
+        text-decoration: none;
+        color: #ff4e50;
+    }
 }
+
+@media screen and (min-width: 400px){
+    .Bid-List{
+        margin-bottom: 40px;
+    }
+
+    .Title{
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .list{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 234px;
+    }
+
+    .head{
+        display: flex;
+        flex-direction: row-reverse;
+        margin-bottom: 160px;
+        justify-content: center;
+    }
+
+    .login{
+        text-decoration: none;
+        color: #ffffff;
+    }
+
+    .log{
+        color: #ffffff;
+        background-color: rgba(31, 281, 46, 0);
+        font-size: 15px;
+        border: 0px;
+        height: 36px;
+        width: 90px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: lighter;
+    }
+    .sing{
+        color: #ffffff;
+        background-color: rgba(31, 281, 46, 0);
+        border: 2px solid #ffffff;
+        font-size: 15px;
+        border-radius: 30px;
+        height: 36px;
+        width: 90px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: lighter;
+    }
+
+    .register{
+        margin-top: 38px;
+        min-width: 250px;
+    }
+
+    .small-list-3{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .begin{
+        background-image: url(../img/Vector\ Smart\ Object.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .first-name{
+        margin-top: 0px;
+        font-size: 18px;
+        color: #ffffff;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .first{
+        margin: 47px 0px 0px 5px;
+        width: 50%;
+        display: flex;
+        justify-content: flex-start;
+    }
+    
+    .main-slogan{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .slogan{
+        font-size: 42px;
+        color: #ffffff;
+        font-family: 'Montserrat', sans-serif;
+        width: 500px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    
+    span{
+        font-size: 22px;
+        color: #ffffff;
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    .find-p{
+        background-color: #ff4e50;
+        color: #ffffff;
+        border: 0px;
+        border-radius: 30px;
+        font-size: 13px;
+        font-family: 'Montserrat', sans-serif;
+        padding: 11px 22px 11px 22px;
+        font-weight: lighter;
+        margin-top: 35px;
+    }
+    
+    .holiday{
+        text-decoration: none;
+        height: auto;
+        color: #ffffff;
+    }
+
+    h5{
+        color: #333333;
+        font-size: 18px;
+        font-family: 'Montserrat', sans-serif;
+        margin-top: 71px;
+    }
+    
+    .small-list{
+        text-align: center;
+    }
+ 
+    h6{
+        font-size: 14px;
+        color: #333333;
+        font-family: 'Montserrat', sans-serif;
+        margin: 0px 0px 0px 0px;
+    }
+    
+    .text{
+        color: #666666;
+        font-size: 14px;
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    .people{
+        max-width: 220px;
+        min-width: 170px;
+        text-align: center;
+        margin-top: 60px;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+
+    .end-b{
+        color: #ff4e50;
+        border: 2px solid #ff4e50;
+        border-radius: 30px;
+        font-size: 14px;
+        padding: 13px 30px 13px 30px;
+        background-color: #ffffff;
+        width: auto;
+    }
+
+    .end-see{
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+    .end{
+        text-decoration: none;
+        color: #ff4e50;
+    }
+}
+
+
