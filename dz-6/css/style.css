@@ -2,14 +2,6 @@ body{
     margin: 0px 0px 0px 0px;
 }
 
-@font-face {
-    font-family: 'WisdomScript';
-        
-        src:    url(https://nomail.com.ua/files/eot/fe0dc36743d17d7a1166c6e21f6536f1.eot?#iefix) format(embedded-opentype),
-                url(https://nomail.com.ua/files/woff/fe0dc36743d17d7a1166c6e21f6536f1.woff) format(woff),
-                url(https://nomail.com.ua/files/woff2/fe0dc36743d17d7a1166c6e21f6536f1.woff2) format(woff2);
-    }
-    
 @font-face { 
     font-family: 'Wisdom-Script';  
     src: local(Wisdom-Script), url(https://nomail.com.ua/files/woff/fe0dc36743d17d7a1166c6e21f6536f1.woff) format(woff); 
@@ -52,11 +44,11 @@ body{
     justify-content: flex-end;
 }
 
-.href:hover{
+.navigation:hover{
     color: #fed136;
 }
 
-.href{
+.navigation{
     display: inline-block;
     color: #222222;
     line-height: 1;
@@ -189,6 +181,7 @@ li{
 
 .form-group{
     width: 440px;
+    margin-right: 30px;
 }
 
 #masege::-webkit-input-placeholder{
@@ -200,19 +193,19 @@ li{
     padding-left: 30px;
 }
 
-.form{
+.section-form{
     display: block;
     margin-top: 40px;
     align-items: center;
 }
 
-.inpt{
+.section-input{
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
-.btn{
+.message-botton{
     height: 65px;
     width: 240px;
     border: none;
