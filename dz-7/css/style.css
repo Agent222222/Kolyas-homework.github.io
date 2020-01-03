@@ -1,10 +1,13 @@
 body{
+    width:auto;
     margin: 0px 0px 0px 0px;
-}   
+}
+
 .Title{
         display: flex;
         text-align: center;
         flex-direction: column;
+        margin: 0px 5px 0px 5px;
     }
 
     .list{
@@ -63,6 +66,7 @@ body{
         color: #ffffff;
         font-family: 'Montserrat', sans-serif;
         margin-bottom: 0px;
+        margin-left: 10px;
         display: flex;
        text-align: center;
     }
@@ -83,8 +87,7 @@ body{
         font-family: 'Montserrat', sans-serif;
         width: 500px;
         text-align: center;
-        margin-bottom: 30px;
-        margin-top: 0px;
+        margin:100px 5px 30px 5px;
     }
     
     span{
@@ -159,6 +162,7 @@ body{
         padding: 10px 28px 10px 28px;
         background-color: #ffffff;
         width: 60%;
+        margin-bottom: 40px;
     }
     
     footer{
@@ -171,6 +175,196 @@ body{
         color: #ff4e50;
         font-weight: bold;
     }
+
+
+
+@media screen and (min-width: 400px){
+
+    body{
+        width: 100%;
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .Bid-List{
+        margin-bottom: 40px;
+    }
+
+    .Title{
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .list{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 234px;
+    }
+
+    .head{
+        display: flex;
+        flex-direction: row-reverse;
+        margin-bottom: 160px;
+        justify-content: center;
+    }
+
+    .login{
+        text-decoration: none;
+        color: #ffffff;
+    }
+
+    .log{
+        color: #ffffff;
+        background-color: rgba(31, 281, 46, 0);
+        font-size: 1em;
+        border: 0px;
+        height: 36px;
+        width: 90px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+    }
+    .sing{
+        color: #ffffff;
+        background-color: rgba(31, 281, 46, 0);
+        border: 2px solid #ffffff;
+        font-size: 1rem;
+        border-radius: 30px;
+        height: 36px;
+        width: 90px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+    }
+
+    .register{
+        margin-top: 38px;
+        min-width: 250px;
+    }
+
+    .small-list-3{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        width: auto;
+    }
+
+    .begin{
+        background-image: url(../img/Vector\ Smart\ Object.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .first-name{
+        margin-top: 0px;
+        font-size: 1.2rem;
+        color: #ffffff;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .first{
+        margin: 47px 0px 0px 15px;
+        width: 50%;
+        display: flex;
+        justify-content: flex-start;
+    }
+    
+    .main-slogan{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .slogan{
+        font-size: 2.7rem;
+        color: #ffffff;
+        font-family: 'Montserrat', sans-serif;
+        width: 500px;
+        text-align: center;
+        margin-bottom: 30px;
+        padding: 0px 10px 0px 10px;
+    }
+    
+    span{
+        font-size: 1.5rem;
+        color: #ffffff;
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    .find-p{
+        background-color: #ff4e50;
+        color: #ffffff;
+        border: 0px;
+        border-radius: 30px;
+        font-size: 0.8rem;
+        font-family: 'Montserrat', sans-serif;
+        padding: 11px 22px 11px 22px;
+        font-weight: lighter;
+        margin-top: 35px;
+    }
+    
+    .holiday{
+        text-decoration: none;
+        height: auto;
+        color: #ffffff;
+    }
+
+    h5{
+        color: #333333;
+        font-size: 1.1rem;
+        font-family: 'Montserrat', sans-serif;
+        margin-top: 71px;
+    }
+    
+    .small-list{
+        text-align: center;
+    }
+ 
+    h6{
+        font-size: 0.9rem;
+        color: #333333;
+        font-family: 'Montserrat', sans-serif;
+        margin: 0px 0px 0px 0px;
+    }
+    
+    .text{
+        color: #666666;
+        font-size: 0.9rem;
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    .people{
+        max-width: 220px;
+        min-width: 170px;
+        text-align: center;
+        margin-top: 60px;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+
+    .end-b{
+        color: #ff4e50;
+        border: 2px solid #ff4e50;
+        border-radius: 30px;
+        font-size: 0.9rem;
+        padding: 13px 30px 13px 30px;
+        background-color: #ffffff;
+        width: auto;
+        margin-bottom: 40px;
+    }
+
+    .end-see{
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+    .end{
+        text-decoration: none;
+        color: #ff4e50;
+        font-weight: bold;
+    }
+}
 
 @media screen and (min-width: 900px){    
     .Bid-List{
@@ -341,191 +535,12 @@ body{
         padding: 13px 30px 13px 30px;
         width: auto;
         background-color: #ffffff;
-    }
-
-    .end-see{
-        display: flex;
-        justify-content: center;
-    }
-
-    .end{
-        text-decoration: none;
-        color: #ff4e50;
-        font-weight: bold;
-    }
-}
-
-@media screen and (min-width: 400px){
-    .Bid-List{
         margin-bottom: 40px;
     }
 
-    .Title{
-        display: flex;
-        text-align: center;
-        flex-direction: column;
-    }
-
-    .list{
-        display: flex;
-        justify-content: center;
-        margin-bottom: 234px;
-    }
-
-    .head{
-        display: flex;
-        flex-direction: row-reverse;
-        margin-bottom: 160px;
-        justify-content: center;
-    }
-
-    .login{
-        text-decoration: none;
-        color: #ffffff;
-    }
-
-    .log{
-        color: #ffffff;
-        background-color: rgba(31, 281, 46, 0);
-        font-size: 1em;
-        border: 0px;
-        height: 36px;
-        width: 90px;
-        font-family: 'Montserrat', sans-serif;
-        font-weight: bold;
-    }
-    .sing{
-        color: #ffffff;
-        background-color: rgba(31, 281, 46, 0);
-        border: 2px solid #ffffff;
-        font-size: 1rem;
-        border-radius: 30px;
-        height: 36px;
-        width: 90px;
-        font-family: 'Montserrat', sans-serif;
-        font-weight: bold;
-    }
-
-    .register{
-        margin-top: 38px;
-        min-width: 250px;
-    }
-
-    .small-list-3{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: flex-start;
-        width: auto;
-    }
-
-    .begin{
-        background-image: url(../img/Vector\ Smart\ Object.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-    }
-    .first-name{
-        margin-top: 0px;
-        font-size: 1.2rem;
-        color: #ffffff;
-        font-family: 'Montserrat', sans-serif;
-    }
-
-    .first{
-        margin: 47px 0px 0px 15px;
-        width: 50%;
-        display: flex;
-        justify-content: flex-start;
-    }
-    
-    .main-slogan{
-        display: flex;
-        justify-content: center;
-    }
-    
-    .slogan{
-        font-size: 2.7rem;
-        color: #ffffff;
-        font-family: 'Montserrat', sans-serif;
-        width: 500px;
-        text-align: center;
-        margin-bottom: 30px;
-        padding: 0px 10px 0px 10px;
-    }
-    
-    span{
-        font-size: 1.5rem;
-        color: #ffffff;
-        font-family: 'Roboto', sans-serif;
-    }
-    
-    .find-p{
-        background-color: #ff4e50;
-        color: #ffffff;
-        border: 0px;
-        border-radius: 30px;
-        font-size: 0.8rem;
-        font-family: 'Montserrat', sans-serif;
-        padding: 11px 22px 11px 22px;
-        font-weight: lighter;
-        margin-top: 35px;
-    }
-    
-    .holiday{
-        text-decoration: none;
-        height: auto;
-        color: #ffffff;
-    }
-
-    h5{
-        color: #333333;
-        font-size: 1.1rem;
-        font-family: 'Montserrat', sans-serif;
-        margin-top: 71px;
-    }
-    
-    .small-list{
-        text-align: center;
-    }
- 
-    h6{
-        font-size: 0.9rem;
-        color: #333333;
-        font-family: 'Montserrat', sans-serif;
-        margin: 0px 0px 0px 0px;
-    }
-    
-    .text{
-        color: #666666;
-        font-size: 0.9rem;
-        font-family: 'Roboto', sans-serif;
-    }
-    
-    .people{
-        max-width: 220px;
-        min-width: 170px;
-        text-align: center;
-        margin-top: 60px;
-        margin-right: 20px;
-        margin-left: 20px;
-    }
-
-
-    .end-b{
-        color: #ff4e50;
-        border: 2px solid #ff4e50;
-        border-radius: 30px;
-        font-size: 0.9rem;
-        padding: 13px 30px 13px 30px;
-        background-color: #ffffff;
-        width: auto;
-    }
-
     .end-see{
         display: flex;
         justify-content: center;
-        margin-top: 30px;
     }
 
     .end{
@@ -534,5 +549,3 @@ body{
         font-weight: bold;
     }
 }
-
-
