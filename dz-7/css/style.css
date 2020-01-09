@@ -53,22 +53,25 @@ body{
     .register{
         display: flex;
         justify-content: center;
+        margin-bottom: 120px;
+        margin-top: 20px;
     }
 
-    .begin{
+    header{
         background-image: url(../img/Vector\ Smart\ Object.png);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
     }
     .first-name{
-        font-size: 1.2rem;
+        font-size: 1.5rem;
         color: #ffffff;
         font-family: 'Montserrat', sans-serif;
         margin-bottom: 0px;
         margin-left: 10px;
         display: flex;
        text-align: center;
+       margin-bottom: 40px;
     }
 
     .first{
@@ -101,7 +104,8 @@ body{
         color: #ffffff;
         border: 0px;
         border-radius: 30px;
-        font-size: 0.8rem;
+        font-size: 0.9rem;
+        width: 240px;
         font-family: 'Montserrat', sans-serif;
         padding: 11px 22px 11px 22px;
         font-weight: lighter;
@@ -116,7 +120,7 @@ body{
 
     h5{
         color: #333333;
-        font-size: 1.1rem;
+        font-size: 1.3rem;
         font-family: 'Montserrat', sans-serif;
         margin-top: 71px;
         margin-right: 25px;
@@ -161,7 +165,7 @@ body{
         font-size: 0.9rem;
         padding: 10px 28px 10px 28px;
         background-color: #ffffff;
-        width: 60%;
+        width: 280px;
         margin-bottom: 40px;
     }
     
@@ -237,8 +241,9 @@ body{
     }
 
     .register{
-        margin-top: 38px;
+        margin-top: 43px;
         min-width: 250px;
+        margin-bottom: 0px;
     }
 
     .small-list-3{
@@ -257,7 +262,7 @@ body{
     }
     .first-name{
         margin-top: 0px;
-        font-size: 1.2rem;
+        font-size: 1.5rem;
         color: #ffffff;
         font-family: 'Montserrat', sans-serif;
     }
@@ -294,8 +299,9 @@ body{
         background-color: #ff4e50;
         color: #ffffff;
         border: 0px;
+        width: 240px;
         border-radius: 30px;
-        font-size: 0.8rem;
+        font-size: 0.9rem;
         font-family: 'Montserrat', sans-serif;
         padding: 11px 22px 11px 22px;
         font-weight: lighter;
@@ -310,7 +316,7 @@ body{
 
     h5{
         color: #333333;
-        font-size: 1.1rem;
+        font-size: 1.3rem;
         font-family: 'Montserrat', sans-serif;
         margin-top: 71px;
     }
@@ -347,9 +353,9 @@ body{
         border: 2px solid #ff4e50;
         border-radius: 30px;
         font-size: 0.9rem;
-        padding: 13px 30px 13px 30px;
+        padding: 10px 10px 10px 10px;
         background-color: #ffffff;
-        width: auto;
+        max-width: 240px;
         margin-bottom: 40px;
     }
 
@@ -395,6 +401,8 @@ body{
 
     .register{
         min-width: 250px;
+        margin-bottom: 0px;
+        margin-top: 43px;
     }
 
     .log{
@@ -439,7 +447,7 @@ body{
         background-position: center;
     }
     .first-name{
-        font-size: 1.2rem;
+        font-size: 1.5rem;
         color: #ffffff;
         font-family: 'Montserrat', sans-serif;
         margin: 0px 0px 0px 0px;
@@ -478,9 +486,9 @@ body{
         background-color: #ff4e50;
         color: #ffffff;
         border: 0px;
-        width: 220px;
+        width: 240px;
         border-radius: 30px;
-        font-size: 0.8rem;
+        font-size: 0.9rem;
         font-family: 'Montserrat', sans-serif;
         padding: 11px 22px 11px 22px;
         font-weight: lighter;
@@ -495,7 +503,7 @@ body{
 
     h5{
         color: #333333;
-        font-size: 1.1rem;
+        font-size: 1.3rem;
         font-family: 'Montserrat', sans-serif;
         margin-top: 71px;
     }
@@ -532,8 +540,8 @@ body{
         border: 2px solid #ff4e50;
         border-radius: 30px;
         font-size: 0.9rem;
-        padding: 13px 30px 13px 30px;
-        width: auto;
+        padding: 10px 10px 13px 10px;
+        width: 240px;
         background-color: #ffffff;
         margin-bottom: 40px;
     }
@@ -549,3 +557,189 @@ body{
         font-weight: bold;
     }
 }
+@media screen and(min-width:1440px){
+    .Bid-List{
+        margin-bottom: 40px;
+    }
+
+    .Title{
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .small-list-2{
+        display: flex;
+        justify-content: center;
+        width: auto;
+    }
+
+    .small-list-3{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        width: auto;
+        margin: 0px 0px 0px 0px;
+        max-width: auto;
+        min-width: 340px;
+    }
+
+    .register{
+        min-width: 250px;
+        margin-bottom: 0px;
+        margin-top: 43px;
+    }
+
+    .log{
+        color: #ffffff;
+        background-color: rgba(31, 281, 46, 0);
+        font-size: 1em;
+        border: 0px;
+        height: 36px;
+        width: 90px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+    }
+
+    .login{
+        text-decoration: none;
+        color: #ffffff;
+    }
+
+    .sing{
+        color: #ffffff;
+        background-color: rgba(31, 281, 46, 0);
+        border: 2px solid #ffffff;
+        font-size: 1rem;
+        border-radius: 30px;
+        height: 36px;
+        width: 90px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+    }
+
+    .head{
+        display: flex;
+        flex-direction: row-reverse;
+        margin-bottom: 160px;
+        justify-content: center;
+    }
+
+    .begin{
+        background-image: url(../img/Vector\ Smart\ Object.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .first-name{
+        font-size: 1.5rem;
+        color: #ffffff;
+        font-family: 'Montserrat', sans-serif;
+        margin: 0px 0px 0px 0px;
+    }
+    .first{
+        margin: 47px 5% 0px 0px;
+    }
+    
+    .main-slogan{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .slogan{
+        font-size: 2.7rem;
+        color: #ffffff;
+        font-family: 'Montserrat', sans-serif;
+        width: 500px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    
+    span{
+        font-size: 1.5rem;
+        color: #ffffff;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .list{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 234px;
+    }
+    
+    .find-p{
+        background-color: #ff4e50;
+        color: #ffffff;
+        border: 0px;
+        width: 240px;
+        border-radius: 30px;
+        font-size: 0.9rem;
+        font-family: 'Montserrat', sans-serif;
+        padding: 11px 22px 11px 22px;
+        font-weight: lighter;
+        margin-top: 35px;
+    }
+    
+    .holiday{
+        text-decoration: none;
+        height: auto;
+        color: #ffffff;
+    }
+
+    h5{
+        color: #333333;
+        font-size: 1.3rem;
+        font-family: 'Montserrat', sans-serif;
+        margin-top: 71px;
+    }
+    
+    .small-list{
+        text-align: center;
+    }
+    
+    h6{
+        font-size: 0.9rem;
+        color: #333333;
+        font-family: 'Montserrat', sans-serif;
+        margin: 0px 0px 0px 0px;
+    }
+    
+    .text{
+        color: #666666;
+        font-size: 0.9rem;
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    .people{
+        max-width: 220px;
+        height: auto;
+        text-align: center;
+        margin-top: 40px;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    
+    .end-b{
+        color: #ff4e50;
+        border: 2px solid #ff4e50;
+        border-radius: 30px;
+        font-size: 0.9rem;
+        padding: 10px 10px 13px 10px;
+        width: 240px;
+        background-color: #ffffff;
+        margin-bottom: 40px;
+    }
+
+    .end-see{
+        display: flex;
+        justify-content: center;
+    }
+
+    .end{
+        text-decoration: none;
+        color: #ff4e50;
+        font-weight: bold;
+    }
+}
+
