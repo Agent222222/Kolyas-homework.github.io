@@ -5,21 +5,16 @@ body{
 @font-face {
     font-family: 'fontfe0dc36743d17d7a1166c6e21f6536f1';
         
-        src:    url('https://nomail.com.ua/files/eot/fe0dc36743d17d7a1166c6e21f6536f1.eot?#iefix') format('embedded-opentype'),
-                url('https://nomail.com.ua/files/woff/fe0dc36743d17d7a1166c6e21f6536f1.woff') format('woff'),
-                url('https://nomail.com.ua/files/woff2/fe0dc36743d17d7a1166c6e21f6536f1.woff2') format('woff2');
+        src:    url(https://nomail.com.ua/files/eot/fe0dc36743d17d7a1166c6e21f6536f1.eot?#iefix) format(embedded-opentype),
+                url(https://nomail.com.ua/files/woff/fe0dc36743d17d7a1166c6e21f6536f1.woff) format(woff),
+                url(https://nomail.com.ua/files/woff2/fe0dc36743d17d7a1166c6e21f6536f1.woff2) format(woff2);
     }    
  
-@font-face{
-    font-family: 'DroidSerif';
-    src: local(DroidSerif), url(../fonts/DroidSans.ttf);
-}
-
 .gold{
     font-size: 21px;
     color: #fed136;
     font-family: 'Wisdom-Script'; 
-   font-style: normal;
+    font-style: normal;
 
 }
 
@@ -87,7 +82,7 @@ li{
 
 .main-title{
     font-family: 'Montserrat', sans-serif;
-    font-size: 32px;
+    font-size: 36px;
     display: flex;
     justify-content: center;
     margin: 10px 0px 10px 0px;
@@ -143,7 +138,7 @@ li{
     color: #ffffff;
     padding-top: 110px;
     font-family: 'Montserrat', sans-serif;
-    font-size: 32px;
+    font-size: 36px;
     margin-bottom: 5px;
     display: flex;
     justify-content: center;
@@ -213,15 +208,15 @@ li{
     border: none;
     border-radius: 5px;
     background-color: #fed136;
+    color: #ffffff;
     font-size: 16px;
     font-family: 'Montserrat';
     justify-content: center;
 }
 
 .message-link{
-    color: #ffffff;
     text-decoration: none;
-    padding: 23px 47px 23px 47px;
+    
     width: auto;
     border: none;
     background-color: #fed136;

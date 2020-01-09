@@ -27,7 +27,7 @@
     </div>
     <div class="Title">
         <p class="main-title">SERVICES</p>
-       <span class="first">Proin iaculis consequat sem cure</span>
+        <span class="first">Proin iaculis consequat sem cure</span>
     </div>
     <div class="big-two">
         <div class="one">
@@ -68,31 +68,30 @@
             <p class="Begin">CONTACT US</p>
             <div class="first"><span>Proin iaculis consequat sem cure</span></div>
         </div>
-        <form action="/my-handling-form-page" method="post">
-            <form class="main-form">
-                <div class="section-form">
-                    <div class="section-input">
-                        <div class="form-group">
-                            <label for="name"></label>
-                            <input type="text" class="name" required name="login" placeholder="YOUR NAME*" /> <br />
-                            <label for="mail"></label>
-                            <input type="email" class="name" required id="exampleInputEmail1" aria-describedby="emailHelp"
-                                placeholder="YOUR E-MAIL*" /> <br />
-                            <input type="text" class="name" placeholder="SUBJECT">
-                        </div>
-                        <div class="form-group">
-                            <label for="msg"></label>
-                            <textarea name="textarea" required placeholder="YOUR MASSAGE*" id="masege" cols="30" rows="10"></textarea>
-                        </div>
+        <form action="/my-handling-form-page" method="POST">
+            <div class="section-form">
+                <div class="section-input">
+                    <div class="form-group">
+                        <label for="name"></label>
+                        <input type="text" class="name" required name="login" placeholder="YOUR NAME*" aria-describedby="Name" /> <br />
+                        <label for="mail"></label>
+                        <input type="email" class="name" required id="exampleInputEmail1" aria-describedby="emailHelp"
+                            placeholder="YOUR E-MAIL*" /> <br />
+                        <input type="text" class="name" placeholder="SUBJECT">
                     </div>
-                    <div class="end">
-                        <div class="click">
-                            <button type="submit" class="message-botton"><a class="message-link" href="#">SEND MASSEGE</a></button>
-                        </div>
+                    <div class="form-group">
+                        <label for="msg"></label>
+                        <textarea name="textarea" required placeholder="YOUR MASSAGE*" id="masege" cols="30"
+                            rows="10"></textarea>
                     </div>
                 </div>
-            </form>
-        </form>  
+                <div class="end">
+                    <div class="click">
+                        <a class="message-link" href="#"><input type="submit" class="message-botton" value="SEND MASSEGE" ></a>
+                    </div>
+                </div>
+            </div>
+        </form>
     </div>
 </body>
 
