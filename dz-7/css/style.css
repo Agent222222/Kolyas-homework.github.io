@@ -1,5 +1,5 @@
 body{
-    width:auto;
+    width:100%;
     margin: 0px 0px 0px 0px;
 }
 
@@ -19,7 +19,6 @@ body{
     .head{
         display: flex;
         flex-direction: column;
-        margin-bottom: 10px;
         justify-content: center;
     }
 
@@ -31,7 +30,7 @@ body{
     .log{
         color: #ffffff;
         background-color: rgba(31, 281, 46, 0);
-        font-size: 1em;
+        font-size: 16px;
         border: 0px;
         height: 36px;
         width: 90px;
@@ -42,7 +41,7 @@ body{
         color: #ffffff;
         background-color: rgba(31, 281, 46, 0);
         border: 2px solid #ffffff;
-        font-size: 1rem;
+        font-size: 16px;
         border-radius: 30px;
         height: 36px;
         width: 90px;
@@ -57,18 +56,16 @@ body{
         margin-top: 20px;
     }
 
-    header{
+    .begin{
         background-image: url(../img/Vector\ Smart\ Object.png);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
     }
     .first-name{
-        font-size: 1.5rem;
+        font-size: 24px;
         color: #ffffff;
         font-family: 'Montserrat', sans-serif;
-        margin-bottom: 0px;
-        margin-left: 10px;
         display: flex;
        text-align: center;
        margin-bottom: 40px;
@@ -85,7 +82,7 @@ body{
     }
     
     .slogan{
-        font-size: 2.7rem;
+        font-size: 42px;
         color: #ffffff;
         font-family: 'Montserrat', sans-serif;
         width: 500px;
@@ -94,7 +91,7 @@ body{
     }
     
     span{
-        font-size: 1.5rem;
+        font-size: 24px;
         color: #ffffff;
         font-family: 'Roboto', sans-serif;
     }
@@ -104,7 +101,7 @@ body{
         color: #ffffff;
         border: 0px;
         border-radius: 30px;
-        font-size: 0.9rem;
+        font-size: 14px;
         width: 240px;
         font-family: 'Montserrat', sans-serif;
         padding: 11px 22px 11px 22px;
@@ -120,7 +117,7 @@ body{
 
     h5{
         color: #333333;
-        font-size: 1.3rem;
+        font-size: 22px;
         font-family: 'Montserrat', sans-serif;
         margin-top: 71px;
         margin-right: 25px;
@@ -140,7 +137,7 @@ body{
     }
 
     h6{
-        font-size: 0.9rem;
+        font-size: 16px;
         color: #333333;
         font-family: 'Montserrat', sans-serif;
         margin: 0px 0px 0px 0px;
@@ -148,12 +145,13 @@ body{
     
     .text{
         color: #666666;
-        font-size: 0.9rem;
+        font-size: 14px;
         font-family: 'Roboto', sans-serif;
     }
     
     .people{
         width: 220px;
+        margin: 20px 0px 20px 0px;
         text-align: center;
     }
     
@@ -162,7 +160,7 @@ body{
         border: 2px solid #ff4e50;
         border-radius: 30px;
         font-family: 'Montserrat';
-        font-size: 0.9rem;
+        font-size: 16px;
         padding: 10px 28px 10px 28px;
         background-color: #ffffff;
         width: 280px;
@@ -182,7 +180,7 @@ body{
 
 
 
-@media screen and (min-width: 400px){
+@media screen and (min-width: 700px){
 
     body{
         width: 100%;
@@ -194,169 +192,59 @@ body{
         margin-bottom: 40px;
     }
 
-    .Title{
-        display: flex;
-        text-align: center;
-        flex-direction: column;
-    }
-
     .list{
         display: flex;
         justify-content: center;
-        margin-bottom: 234px;
     }
 
     .head{
         display: flex;
         flex-direction: row-reverse;
-        margin-bottom: 160px;
+        margin:0px 0px 160px 10px;
+        
+    }
+
+    .small-list-2{
+        display: flex;
+        flex-direction: row;
         justify-content: center;
-    }
-
-    .login{
-        text-decoration: none;
-        color: #ffffff;
-    }
-
-    .log{
-        color: #ffffff;
-        background-color: rgba(31, 281, 46, 0);
-        font-size: 1em;
-        border: 0px;
-        height: 36px;
-        width: 90px;
-        font-family: 'Montserrat', sans-serif;
-        font-weight: bold;
-    }
-    .sing{
-        color: #ffffff;
-        background-color: rgba(31, 281, 46, 0);
-        border: 2px solid #ffffff;
-        font-size: 1rem;
-        border-radius: 30px;
-        height: 36px;
-        width: 90px;
-        font-family: 'Montserrat', sans-serif;
-        font-weight: bold;
     }
 
     .register{
         margin-top: 43px;
-        min-width: 250px;
+        min-width: 29%;
         margin-bottom: 0px;
     }
 
     .small-list-3{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: flex-start;
-        width: auto;
+        width:auto;
+        margin: 10px 0px 10px 0px;
     }
 
-    .begin{
-        background-image: url(../img/Vector\ Smart\ Object.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-    }
     .first-name{
         margin-top: 0px;
-        font-size: 1.5rem;
-        color: #ffffff;
-        font-family: 'Montserrat', sans-serif;
     }
 
     .first{
-        margin: 47px 0px 0px 15px;
+        margin: 47px 0px 0px 0px;
         width: 50%;
         display: flex;
         justify-content: flex-start;
     }
-    
-    .main-slogan{
-        display: flex;
-        justify-content: center;
-    }
-    
+
     .slogan{
-        font-size: 2.7rem;
-        color: #ffffff;
-        font-family: 'Montserrat', sans-serif;
-        width: 500px;
-        text-align: center;
         margin-bottom: 30px;
         padding: 0px 10px 0px 10px;
     }
-    
-    span{
-        font-size: 1.5rem;
-        color: #ffffff;
-        font-family: 'Roboto', sans-serif;
-    }
-    
-    .find-p{
-        background-color: #ff4e50;
-        color: #ffffff;
-        border: 0px;
-        width: 240px;
-        border-radius: 30px;
-        font-size: 0.9rem;
-        font-family: 'Montserrat', sans-serif;
-        padding: 11px 22px 11px 22px;
-        font-weight: lighter;
-        margin-top: 35px;
-    }
-    
-    .holiday{
-        text-decoration: none;
-        height: auto;
-        color: #ffffff;
-    }
 
-    h5{
-        color: #333333;
-        font-size: 1.3rem;
-        font-family: 'Montserrat', sans-serif;
-        margin-top: 71px;
-    }
-    
-    .small-list{
-        text-align: center;
-    }
- 
-    h6{
-        font-size: 0.9rem;
-        color: #333333;
-        font-family: 'Montserrat', sans-serif;
-        margin: 0px 0px 0px 0px;
-    }
-    
-    .text{
-        color: #666666;
-        font-size: 0.9rem;
-        font-family: 'Roboto', sans-serif;
-    }
-    
     .people{
-        max-width: 220px;
-        min-width: 170px;
-        text-align: center;
-        margin-top: 60px;
-        margin-right: 20px;
-        margin-left: 20px;
+        margin: 40px 20px 40px 20px;
+        height: 34%; 
     }
 
 
     .end-b{
-        color: #ff4e50;
-        border: 2px solid #ff4e50;
-        border-radius: 30px;
-        font-size: 0.9rem;
         padding: 10px 10px 10px 10px;
-        background-color: #ffffff;
-        max-width: 240px;
-        margin-bottom: 40px;
     }
 
     .end-see{
@@ -365,23 +253,9 @@ body{
         margin-top: 30px;
     }
 
-    .end{
-        text-decoration: none;
-        color: #ff4e50;
-        font-weight: bold;
-    }
 }
 
-@media screen and (min-width: 900px){    
-    .Bid-List{
-        margin-bottom: 40px;
-    }
-
-    .Title{
-        display: flex;
-        text-align: center;
-        flex-direction: column;
-    }
+@media screen and (min-width: 1100px){    
 
     .small-list-2{
         display: flex;
@@ -390,183 +264,32 @@ body{
     }
 
     .small-list-3{
+        width: auto;
         display: flex;
         flex-direction: row;
+        height: 98%;
         align-items: flex-start;
-        width: auto;
-        margin: 0px 0px 0px 0px;
-        max-width: auto;
-        min-width: 340px;
-    }
-
-    .register{
-        min-width: 250px;
-        margin-bottom: 0px;
-        margin-top: 43px;
-    }
-
-    .log{
-        color: #ffffff;
-        background-color: rgba(31, 281, 46, 0);
-        font-size: 1em;
-        border: 0px;
-        height: 36px;
-        width: 90px;
-        font-family: 'Montserrat', sans-serif;
-        font-weight: bold;
-    }
-
-    .login{
-        text-decoration: none;
-        color: #ffffff;
-    }
-
-    .sing{
-        color: #ffffff;
-        background-color: rgba(31, 281, 46, 0);
-        border: 2px solid #ffffff;
-        font-size: 1rem;
-        border-radius: 30px;
-        height: 36px;
-        width: 90px;
-        font-family: 'Montserrat', sans-serif;
-        font-weight: bold;
     }
 
     .head{
-        display: flex;
-        flex-direction: row-reverse;
         margin-bottom: 160px;
-        justify-content: center;
-    }
-
-    .begin{
-        background-image: url(../img/Vector\ Smart\ Object.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-    }
-    .first-name{
-        font-size: 1.5rem;
-        color: #ffffff;
-        font-family: 'Montserrat', sans-serif;
-        margin: 0px 0px 0px 0px;
-    }
-    .first{
-        margin: 47px 5% 0px 0px;
-    }
-    
-    .main-slogan{
-        display: flex;
-        justify-content: center;
-    }
-    
-    .slogan{
-        font-size: 2.7rem;
-        color: #ffffff;
-        font-family: 'Montserrat', sans-serif;
-        width: 500px;
-        text-align: center;
-        margin-bottom: 30px;
-    }
-    
-    span{
-        font-size: 1.5rem;
-        color: #ffffff;
-        font-family: 'Roboto', sans-serif;
     }
 
     .list{
         display: flex;
         justify-content: center;
-        margin-bottom: 234px;
-    }
-    
-    .find-p{
-        background-color: #ff4e50;
-        color: #ffffff;
-        border: 0px;
-        width: 240px;
-        border-radius: 30px;
-        font-size: 0.9rem;
-        font-family: 'Montserrat', sans-serif;
-        padding: 11px 22px 11px 22px;
-        font-weight: lighter;
-        margin-top: 35px;
-    }
-    
-    .holiday{
-        text-decoration: none;
-        height: auto;
-        color: #ffffff;
     }
 
-    h5{
-        color: #333333;
-        font-size: 1.3rem;
-        font-family: 'Montserrat', sans-serif;
-        margin-top: 71px;
-    }
-    
-    .small-list{
-        text-align: center;
-    }
-    
-    h6{
-        font-size: 0.9rem;
-        color: #333333;
-        font-family: 'Montserrat', sans-serif;
-        margin: 0px 0px 0px 0px;
-    }
-    
-    .text{
-        color: #666666;
-        font-size: 0.9rem;
-        font-family: 'Roboto', sans-serif;
-    }
-    
     .people{
-        max-width: 220px;
-        height: auto;
-        text-align: center;
-        margin-top: 40px;
-        margin-right: 20px;
-        margin-left: 20px;
+        height: auto;  
     }
 
     
     .end-b{
-        color: #ff4e50;
-        border: 2px solid #ff4e50;
-        border-radius: 30px;
-        font-size: 0.9rem;
         padding: 10px 10px 13px 10px;
-        width: 240px;
-        background-color: #ffffff;
-        margin-bottom: 40px;
-    }
-
-    .end-see{
-        display: flex;
-        justify-content: center;
-    }
-
-    .end{
-        text-decoration: none;
-        color: #ff4e50;
-        font-weight: bold;
     }
 }
 @media screen and(min-width:1440px){
-    .Bid-List{
-        margin-bottom: 40px;
-    }
-
-    .Title{
-        display: flex;
-        text-align: center;
-        flex-direction: column;
-    }
 
     .small-list-2{
         display: flex;
@@ -575,171 +298,27 @@ body{
     }
 
     .small-list-3{
-        display: flex;
-        flex-direction: row;
-        align-items: flex-start;
-        width: auto;
         margin: 0px 0px 0px 0px;
         max-width: auto;
         min-width: 340px;
     }
 
-    .register{
-        min-width: 250px;
-        margin-bottom: 0px;
-        margin-top: 43px;
-    }
-
-    .log{
-        color: #ffffff;
-        background-color: rgba(31, 281, 46, 0);
-        font-size: 1em;
-        border: 0px;
-        height: 36px;
-        width: 90px;
-        font-family: 'Montserrat', sans-serif;
-        font-weight: bold;
-    }
-
-    .login{
-        text-decoration: none;
-        color: #ffffff;
-    }
-
-    .sing{
-        color: #ffffff;
-        background-color: rgba(31, 281, 46, 0);
-        border: 2px solid #ffffff;
-        font-size: 1rem;
-        border-radius: 30px;
-        height: 36px;
-        width: 90px;
-        font-family: 'Montserrat', sans-serif;
-        font-weight: bold;
-    }
-
-    .head{
-        display: flex;
-        flex-direction: row-reverse;
-        margin-bottom: 160px;
-        justify-content: center;
-    }
-
-    .begin{
-        background-image: url(../img/Vector\ Smart\ Object.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-    }
     .first-name{
-        font-size: 1.5rem;
-        color: #ffffff;
-        font-family: 'Montserrat', sans-serif;
-        margin: 0px 0px 0px 0px;
+        margin-bottom: 0px;
     }
+
     .first{
         margin: 47px 5% 0px 0px;
-    }
-    
-    .main-slogan{
-        display: flex;
-        justify-content: center;
-    }
-    
-    .slogan{
-        font-size: 2.7rem;
-        color: #ffffff;
-        font-family: 'Montserrat', sans-serif;
-        width: 500px;
-        text-align: center;
-        margin-bottom: 30px;
-    }
-    
-    span{
-        font-size: 1.5rem;
-        color: #ffffff;
-        font-family: 'Roboto', sans-serif;
     }
 
     .list{
         display: flex;
         justify-content: center;
-        margin-bottom: 234px;
-    }
-    
-    .find-p{
-        background-color: #ff4e50;
-        color: #ffffff;
-        border: 0px;
-        width: 240px;
-        border-radius: 30px;
-        font-size: 0.9rem;
-        font-family: 'Montserrat', sans-serif;
-        padding: 11px 22px 11px 22px;
-        font-weight: lighter;
-        margin-top: 35px;
-    }
-    
-    .holiday{
-        text-decoration: none;
-        height: auto;
-        color: #ffffff;
     }
 
-    h5{
-        color: #333333;
-        font-size: 1.3rem;
-        font-family: 'Montserrat', sans-serif;
-        margin-top: 71px;
-    }
-    
-    .small-list{
-        text-align: center;
-    }
-    
-    h6{
-        font-size: 0.9rem;
-        color: #333333;
-        font-family: 'Montserrat', sans-serif;
-        margin: 0px 0px 0px 0px;
-    }
-    
-    .text{
-        color: #666666;
-        font-size: 0.9rem;
-        font-family: 'Roboto', sans-serif;
-    }
-    
-    .people{
-        max-width: 220px;
-        height: auto;
-        text-align: center;
-        margin-top: 40px;
-        margin-right: 20px;
-        margin-left: 20px;
-    }
-
-    
     .end-b{
-        color: #ff4e50;
-        border: 2px solid #ff4e50;
-        border-radius: 30px;
-        font-size: 0.9rem;
         padding: 10px 10px 13px 10px;
-        width: 240px;
-        background-color: #ffffff;
-        margin-bottom: 40px;
     }
 
-    .end-see{
-        display: flex;
-        justify-content: center;
-    }
-
-    .end{
-        text-decoration: none;
-        color: #ff4e50;
-        font-weight: bold;
-    }
 }
 
