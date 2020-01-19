@@ -5,6 +5,7 @@ body{
 
 .Title{
         display: flex;
+        justify-content: center;
         text-align: center;
         flex-direction: column;
         margin: 0px 5px 0px 5px;
@@ -53,7 +54,7 @@ body{
     .register{
         display: flex;
         justify-content: center;
-        height: 36px;
+        height: 41.76%;
         margin-bottom: 120px;
         margin-top: 20px;
     }
@@ -77,17 +78,23 @@ body{
        display: flex;
        justify-content: center; 
     }
-    
-    .main-slogan{
+
+    .main-section-slogan{
         display: flex;
         justify-content: center;
+        max-width: 85%;
+    }
+    
+    .main-slogan{
+       display: flex;
+       justify-content: center;
     }
     
     .slogan{
         font-size: 42px;
         color: #ffffff;
         font-family: 'Montserrat', sans-serif;
-        max-width: 500px;
+        max-width: 90%;
         text-align: center;
         margin:0px 5px 30px 5px;
     }
@@ -97,6 +104,10 @@ body{
         color: #ffffff;
         font-family: 'Roboto', sans-serif;
     }
+
+    .list-small{
+        width:70%;
+    }
     
     .find-p{
         background-color: #ff4e50;
@@ -104,7 +115,7 @@ body{
         border: 0px;
         border-radius: 30px;
         font-size: 14px;
-        width: 240px;
+        width: 70%;
         font-family: 'Montserrat', sans-serif;
         padding: 11px 22px 11px 22px;
         font-weight: lighter;
@@ -152,7 +163,7 @@ body{
     }
     
     .people{
-        width: 220px;
+        width: 100%;
         margin: 20px 0px 20px 0px;
         text-align: center;
     }
@@ -227,15 +238,23 @@ body{
         margin-top: 0px;
     }
 
+    .find-p{
+        width: 50%;
+    }
+
     .first{
         margin: 47px 0px 0px 0px;
         width: 50%;
         display: flex;
         justify-content: flex-start;
     }
+    .main-section-slogan{
+        max-width: 90%;
+    }
 
     .slogan{
         margin-bottom: 30px;
+        max-width: 68%;
         padding: 0px 10px 0px 10px;
     }
 
@@ -287,7 +306,14 @@ body{
         height: auto;  
     }
 
-    
+    .slogan{
+        max-width: 58%
+    }
+
+    .list-small{
+        width: 47%;
+    }
+
     .end-b{
         padding: 10px 10px 13px 10px;
         width: 20%;
@@ -322,6 +348,10 @@ body{
 
     .end-b{
         padding: 10px 10px 13px 10px;
+    }
+
+    .list-small{
+        width: 30%;
     }
 
 }
