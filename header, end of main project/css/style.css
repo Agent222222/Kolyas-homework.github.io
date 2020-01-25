@@ -43,7 +43,7 @@ body{
     display: flex;
     flex-direction: column;
     text-align: center;
-    margin: 174px 0px 174px 0px;
+    margin: 174px 0px 0px 0px;
 }
 
 .title{
@@ -75,6 +75,30 @@ body{
     height: 2px;
 }
 
+.proposition{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+    height: 50px;
+    margin: 56px 0px 70px 0px;
+}
+
+.proposition-section{
+    text-align: center;
+    font-size: 17px;
+    color: rgb(255, 255, 255);
+    width: 400px;
+    letter-spacing: 3px;
+    margin: 0px auto;
+    font-weight: lighter;
+}
+
+.section-2{
+    letter-spacing: 4px;
+    margin: 0px;
+}
+
 .header-button{
     display: flex;
     justify-content: center;
@@ -90,37 +114,48 @@ body{
 }
 
 .main-news{
-    font-size: 24px;
-    text-align: center;
+    margin-top: 64px;
+     display: flex;
+     flex-direction: column;
+     text-align: center;
 }
 
-.section-news{
-    font-size: 14px;
-    text-align: center;
+.first-section{
+  font-size: 34px;
+  font-family: 'Arial';
+  font-weight: lighter;
 }
 
-.form{
+.second-section{
+    font-size: 19px;
+    margin-bottom: 64px;
+}
+
+.form-group{
     display: flex;
-    flex-direction: row;
     justify-content: center;
-    height: 100px;
-    border: 0px;
 }
 
-.section-form{
-    width: 233px;
-}
-
-.Name::-webkit-input-placeholder{
-    padding: 20px 233px 20px 38px;
-}
-
-.message-button{
+.name{
+    padding-left: 38px;
+    height: 50px;
+    width: 324px;
     border: 1px solid #151d25;
+    font-size: 17px;
+}
+
+.name::-webkit-input-placeholder{
+    color: #bbbbbb;
+    font-size: 17px; 
+}
+
+.message-botton{
+    height: 54px;
+    width: 200px;
     background-color: #151d25;
-    padding: 20px 40px 20px 64px;
-    font-size: 14px;
     color: #ffffff;
+    border: 1px solid #151d25;
+    font-size: 17px;
 }
 
 .photo-osetr{
