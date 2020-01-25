@@ -1,12 +1,10 @@
 body{
     width:100%;
-    font-size: 10px;
     margin: 0px 0px 0px 0px;
 }
 
 .Title{
         display: flex;
-        justify-content: center;
         text-align: center;
         flex-direction: column;
         margin: 0px 5px 0px 5px;
@@ -55,7 +53,7 @@ body{
     .register{
         display: flex;
         justify-content: center;
-        height: 41.76%;
+        height: 36px;
         margin-bottom: 120px;
         margin-top: 20px;
     }
@@ -79,23 +77,17 @@ body{
        display: flex;
        justify-content: center; 
     }
-
-    .main-section-slogan{
-        display: flex;
-        justify-content: center;
-        max-width: 85%;
-    }
     
     .main-slogan{
-       display: flex;
-       justify-content: center;
+        display: flex;
+        justify-content: center;
     }
     
     .slogan{
         font-size: 42px;
         color: #ffffff;
         font-family: 'Montserrat', sans-serif;
-        max-width: 90%;
+        max-width: 500px;
         text-align: center;
         margin:0px 5px 30px 5px;
     }
@@ -105,10 +97,6 @@ body{
         color: #ffffff;
         font-family: 'Roboto', sans-serif;
     }
-
-    .list-small{
-        width:95%;
-    }
     
     .find-p{
         background-color: #ff4e50;
@@ -116,9 +104,9 @@ body{
         border: 0px;
         border-radius: 30px;
         font-size: 14px;
-        width: 70%;
+        width: 240px;
         font-family: 'Montserrat', sans-serif;
-        padding: 11px 9px 11px 9px;
+        padding: 11px 22px 11px 22px;
         font-weight: lighter;
         margin-top: 35px;
     }
@@ -145,8 +133,8 @@ body{
     .small-list-3{
         width: 220px;
         display: flex;
+        align-items: flex-start;
         flex-direction: column;
-        justify-content: center;
         margin: 0px auto;
     }
 
@@ -164,11 +152,9 @@ body{
     }
     
     .people{
-        width: 100%;
+        width: 220px;
         margin: 20px 0px 20px 0px;
-       
         text-align: center;
-      
     }
     
     .end-b{
@@ -177,7 +163,7 @@ body{
         border-radius: 30px;
         font-family: 'Montserrat';
         font-size: 16px;
-        padding: 10px 28px 10px 28px;
+        padding: 10px 5px 10px 5px;
         background-color: #ffffff;
         width: 60%;
         margin-bottom: 40px;
@@ -223,8 +209,7 @@ body{
     .small-list-2{
         display: flex;
         flex-direction: row;
-        justify-content: center; 
-        margin: 0% 10% 0% 10%;
+        justify-content: center;
     }
 
     .register{
@@ -234,17 +219,12 @@ body{
     }
 
     .small-list-3{
-        display: flex;
-        width:50%;
+        width:auto;
         margin: 10px 0px 10px 0px;
     }
 
     .first-name{
         margin-top: 0px;
-    }
-
-    .find-p{
-        width: 50%;
     }
 
     .first{
@@ -253,30 +233,21 @@ body{
         display: flex;
         justify-content: flex-start;
     }
-    .main-section-slogan{
-        max-width: 90%;
-    }
 
     .slogan{
         margin-bottom: 30px;
-        max-width: 68%;
         padding: 0px 10px 0px 10px;
     }
 
-    .list-small{
-        width: 65%;
-    }
-
     .people{
-        margin: 40px 20% 40px 20%;
+        margin: 40px 20px 40px 20px;
         height: 34%; 
-        width: 60%;
     }
 
 
     .end-b{
-        padding: 10px 10px 10px 10px;
-        width: 40%;
+        padding: 10px 28px 10px 28px;
+        width: 35%;
     }
 
     .end-see{
@@ -293,10 +264,10 @@ body{
         display: flex;
         justify-content: center;
         width: auto;
-        margin: 0px;
     }
 
     .small-list-3{
+        width: auto;
         display: flex;
         flex-direction: row;
         height: 98%;
@@ -313,19 +284,10 @@ body{
     }
 
     .people{
-        height: auto;
-        width: 40%; 
-        margin: 40px 20px 40px 20px; 
+        height: auto;  
     }
 
-    .slogan{
-        max-width: 58%
-    }
-
-    .list-small{
-        width: 47%;
-    }
-
+    
     .end-b{
         padding: 10px 10px 13px 10px;
         width: 20%;
@@ -360,10 +322,6 @@ body{
 
     .end-b{
         padding: 10px 10px 13px 10px;
-    }
-
-    .list-small{
-        width: 30%;
     }
 
 }
