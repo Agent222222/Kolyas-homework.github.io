@@ -26,18 +26,24 @@ body{
 
 .main-navigation{
     margin: 24px 0px 24px 0px;
+    padding: 0px;
   width: 400px;
+  height: 20px;
   list-style-type: none;   
   display: flex;
   justify-content: space-around;
+  align-items: center;
   font-family: 'MyriadProRegular';
   font-weight: lighter;
 }
 
 .navigation{
+    height: 15px;
     color: #ffffff;
     font-size: 14px;
     text-decoration: none;
+    display: flex;
+   justify-content: center;
 }
 .main-title{
     display: flex;
@@ -73,6 +79,7 @@ body{
     font-size: 16px;
     color: rgba(255, 255, 255, 0.48);
     height: 2px;
+    letter-spacing: 6px;
 }
 
 .proposition{
@@ -94,6 +101,95 @@ body{
     font-weight: lighter;
 }
 
+.osetr-main-section1{
+    background-image: url(../img/button-1.png);
+    margin-right: 20px;
+    width: 360px;
+    height: 260px;
+    border-radius: 10px;
+}
+
+.osetr-section{
+    background-color: rgba(14, 18, 19, 0.8);
+    width: 360px;
+    height: 260px;
+}
+
+.osetr-main-section1:hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    width: 370px;
+    height: 270px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    transition: 0.6s;
+    border-radius: 10px;
+}
+
+.osetr-main-section1:not(:hover){
+    transition: 0.6s;
+    border-radius: 10px;
+}
+
+.osetr-main-section2:hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 370px;
+    height: 270px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    transition: 0.6s;
+    border-radius: 10px;
+}
+
+.osetr-main-section2:not(:hover){
+    transition: 0.6s;
+    border-radius: 10px;
+}
+
+.osetr-main-section3:hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    width: 370px;
+    height: 270px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    transition: 0.6s;
+    border-radius: 10px;
+}
+
+.osetr-main-section3:not(:hover){
+    transition: 0.6s;
+    border-radius: 10px;
+}
+
+.osetr-section:hover{
+    background-color: rgba(14, 18, 19, 0); 
+    width: 370px;
+    height: 270px;
+    border-radius: 10px;
+}
+
+.osetr-section:not(:hover){
+    transition: 0.6s;
+    border-radius: 10px;
+}
+
+.osetr-main-section2{
+    background-image: url(../img/button-2.png);
+    width: 360px;
+    height: 260px;
+}
+
+.osetr-main-section3{
+    background-image: url(../img/button-3.png);
+    margin-left: 20px;
+    width: 360px;
+    height: 260px;
+}
+
 .section-2{
     letter-spacing: 4px;
     margin: 0px;
@@ -111,6 +207,18 @@ body{
     padding: 19px 37px 19px 37px;
     background-color: #151d25;
     font-family: 'MyriadProRegular';
+    border-radius: 10px;
+}
+
+.button:not(:hover){
+    transition: 0.6s;
+}
+
+.button:hover{
+    color: #151d25;
+    background-color: #ffffff;
+    border-radius: 10px;
+    transition: 0.6s;
 }
 
 .main-news{
@@ -159,9 +267,9 @@ body{
 }
 
 .photo-osetr{
-    text-align: center;
-    margin: 60px 0px 0px 0px;
-    border-image-repeat: no-repeat;
-    background-size: cover;
+    justify-content: center;
+    margin: 60px 0px 60px 0px;
+    display: flex;
+    flex-direction: row;
     background-position: center;
 }
