@@ -1,7 +1,7 @@
 body{
     margin: 0px;
     padding: 0px;
-    font-size: 0px;
+    font-size: 10px;
 }
 
 @font-face {
@@ -26,15 +26,36 @@ body{
     margin: 24px 0px 24px 0px;
     padding: 0px;
   width: 400px;
-  height: 20px;
+  height: 30px;
   list-style-type: none;   
   display: flex;
   justify-content: space-around;
-  align-items: center;
+  align-content: space-between;
   font-family: 'Myriad Pro';
   font-weight: lighter;
 }
 
+#words:after {
+    color: #ffffff;
+    background-color: #ffffff;
+    display: block;
+    content: "";
+    height: 2px;
+    width: 0%;
+    left:50%;
+    margin-top: 20px;
+    position:absolute;
+    -webkit-transition: width .3s ease-in-out;
+    -moz--transition: width .3s ease-in-out;
+    transition: width .3s ease-in-out;
+    -webkit-transform:translateX(-50%);
+    -moz-transform:translateX(-50%);
+    transform:translateX(-50%);
+}
+#words:hover:after,
+#words:focus:after {
+    width: 100%;
+}
 .navigation{
     height: 15px;
     color: #ffffff;
@@ -42,6 +63,10 @@ body{
     text-decoration: none;
     display: flex;
    justify-content: center;
+   line-height: 1;
+   text-decoration:none;
+   cursor: pointer;
+   position:relative;
 }
 .main-title{
     display: flex;
@@ -180,7 +205,7 @@ main {
     border-radius: 10px;
     color: #ffffff;
     border: none;
-    font-size: 20px;
+    font-size: 18px;
     font-family: 'Myriad Pro';
     cursor: pointer;
 }
@@ -372,7 +397,7 @@ main {
 }
 
 .button{
-    font-size: 20px;
+    font-size: 18px;
     text-decoration: none;
     color: #ffffff;
     padding: 15px 37px 15px 37px;
