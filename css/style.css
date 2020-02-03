@@ -541,9 +541,23 @@ footer {
     background-color: #354a64;
 }
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 950px){
+    .osetr-main-section2{
+        display: none;
+    }
+    
+    .photo-osetr{
+        margin: 60px 20px 60px 20px;
+    }
+}
+
+@media screen and (max-width: 680px){
     .osetr-main-section1{
         display: none;
+    }
+
+    .title{
+        margin-top: -80px;
     }
 
     .osetr-main-section2{
@@ -551,12 +565,13 @@ footer {
     }
 }
 
-@media screen and (max-width: 350px){
+@media screen and (max-width: 400px){
     #words{
         font-size: 12px;
     }
 
     .title{
+        margin-top: 80px;
         font-size: 35px
     }
 
@@ -574,6 +589,30 @@ footer {
         margin-top: 80px
     }
 
+
+
+    .osetr-main-section3{
+        margin: 0px;
+        width: 320px;
+        height: 220px;
+    }
+
+    .osetr-main-section3:hover{
+        width: 330px;
+        height: 230px;
+    }
+
+    .osetr-section{
+        width: 320px;
+        height: 220px;
+    }
+    
+    .osetr-section:hover{
+        width:330px;
+        height: 230px;  
+        transition: 0.3s;  
+    }
+
     .first-section{
         font-size: 25px;
     }
@@ -583,7 +622,14 @@ footer {
     }
     .name::-webkit-input-placeholder, .message-botton{
         font-size: 12px;
-        p
+        padding: 0px;
+        height: 44px; 
+        width: 120px;
+    }
+
+    .name{
+      height: 40px; 
+      width: 80px;
     }
 }
 
