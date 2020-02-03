@@ -277,7 +277,6 @@ main {
     align-items: center;
     cursor: pointer;
     margin: 17px 0px 132px 0px;
-
 }
 
 .arrow {
@@ -442,8 +441,10 @@ main {
     padding-left: 38px;
     height: 50px;
     width: 324px;
+    min-width: 150px;
     border: 1px solid #151d25;
     font-size: 17px;
+    margin-left: 10px
 }
 
 .name::-webkit-input-placeholder{
@@ -458,6 +459,7 @@ main {
     color: #ffffff;
     border: 1px solid #151d25;
     font-size: 17px;
+    margin-right: 10px;
 }
 
 .photo-osetr{
@@ -530,7 +532,7 @@ footer {
 }
 
 .post {
-    height: 546px
+    height: 546px;
 }
 
 .main_button:hover,
@@ -538,3 +540,96 @@ footer {
     transition: all .3s linear;
     background-color: #354a64;
 }
+
+@media screen and (max-width: 950px){
+    .osetr-main-section2{
+        display: none;
+    }
+    
+    .photo-osetr{
+        margin: 60px 20px 60px 20px;
+    }
+}
+
+@media screen and (max-width: 680px){
+    .osetr-main-section1{
+        display: none;
+    }
+
+    .title{
+        margin-top: -80px;
+    }
+
+    .osetr-main-section2{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 400px){
+    #words{
+        font-size: 12px;
+    }
+
+    .title{
+        margin-top: 80px;
+        font-size: 35px
+    }
+
+    .proposition-section{
+        width: 280px;
+        font-size: 12px
+    }
+
+    .button{
+        font-size: 10px;
+        padding: 10px 28px 10px 28px;
+    }
+
+    .main-title{
+        margin-top: 80px
+    }
+
+
+
+    .osetr-main-section3{
+        margin: 0px;
+        width: 320px;
+        height: 220px;
+    }
+
+    .osetr-main-section3:hover{
+        width: 330px;
+        height: 230px;
+    }
+
+    .osetr-section{
+        width: 320px;
+        height: 220px;
+    }
+    
+    .osetr-section:hover{
+        width:330px;
+        height: 230px;  
+        transition: 0.3s;  
+    }
+
+    .first-section{
+        font-size: 25px;
+    }
+
+    .second-section{
+        font-size: 12px;
+    }
+    .name::-webkit-input-placeholder, .message-botton{
+        font-size: 12px;
+        padding: 0px;
+        height: 44px; 
+        width: 120px;
+    }
+
+    .name{
+      height: 40px; 
+      width: 80px;
+    }
+}
+
