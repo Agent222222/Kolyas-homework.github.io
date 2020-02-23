@@ -1,15 +1,11 @@
-// // let str;
-// // str="priwet";
-// // let txt;
-// // txt=123;
-// // let flag;
-// // flag=true;
-// // let num;
-// // num="true"
-// // console.log(typeof(txt));
-// // console.log(typeof(flag));
-// // console.log(typeof(num));
+// // let str="priwet";
+// // let txt=123;
+// // let flag=true;
+// // let num="true"
 // // console.log(typeof(str));
+// // console.log(typeof(txt));
+// // console.log(typeof(flug));
+// // console.log(typeof(num));
 
 // let flag=10;
 // let txt="tort";
@@ -85,7 +81,31 @@
 //     console.log(perepl);
 
 
-let nfiB=12;
-   el=12;
-   fn
+// let nfiB=12;
+//    el=12;
+//    fn
 
+// number1
+
+// let k1=console.log(Number.parseInt('5px'));
+//     k2=console.log(Number.parseInt('12.45asdwe12'));  
+//     k3=console.log(Number.parseInt('12djd334'));   
+//     k4=console.log(Number.parseInt('qwqweewq'));
+   
+// number2
+
+// let k1=console.log(Number.parseFloat('5px'));
+//     k2=console.log(Number.parseFloat('12.45asdwe12'));  
+//     k3=console.log(Number.parseFloat('12djd334'));   
+//     k4=console.log(Number.parseFloat('qwqweewq'));
+
+// number3
+
+// let random = Math.floor(Math.random() * (10 - 1) + 1);
+// console.log(Math.pow(random,2));
+
+// number4
+
+// let m="My"
+//     n="name"
+//     i="is"
