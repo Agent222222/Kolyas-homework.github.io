@@ -51,6 +51,10 @@
 // else if(a===5){console.log("its five")};
 
 // number 8
-let title = "How old are you?"
-let result = prompt(title)
+// let title = "how old are you?"
+// let result = Number(prompt(title));
+// let age = 14;
+// if(result>12){
+//     alert(age + result)
+// };
 
