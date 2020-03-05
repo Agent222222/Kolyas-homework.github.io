@@ -23,7 +23,7 @@
 //     string="name ",
 //     secword="is ";
 //     fullName = word + string + secword + 'Viktor';  
-//     console.log(fullName)
+//     console.log(fullName);
 
 //   number5  
 

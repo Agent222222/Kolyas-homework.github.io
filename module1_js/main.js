@@ -1,7 +1,7 @@
 // // let str="priwet";
 // // let num=123;
 // // let flag=true;
-// // let txt="true"
+// // let txt="true";
 // // console.log(typeof(str));
 // // console.log(typeof(txt));
 // // console.log(typeof(flug));
@@ -12,10 +12,10 @@
 // let boolean=true;
 // let num=6;
 // let word="work";
-// const 1num=8;
-// const 2boolean=false;
+// const num1=8;
+// const boolean1=false;
 // const string="logo";
-// const 2num=2;
+// const num2=2;
 // const 3boolean=true;
 
 
@@ -64,7 +64,8 @@
 // let heightC=10;
 //     dC=4;
 //     const p=3.14;
-//     v=Math.pow(4,2)*heightC*p;
+//     radius = dC/2;
+//     v=Math.pow(radius,2)*heightC*p;
 //     alert(v);
 
 
