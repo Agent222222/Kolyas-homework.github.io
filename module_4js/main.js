@@ -8,7 +8,6 @@
 
 
 // for(let i =1; i<10; i++ ){
-   
 //     if(i % 2===0){
 //         console.log("number can delet on two");
 //     }
@@ -55,13 +54,20 @@
 
 // number 7 
 
-// let arr = [1,2,3,4,5,6], result=0;
+// let arr = [1,2,3,4,5,6], result='';
 // for(let i = 0; i<arr.length; i++){
-//     a = (arr[0]);
-//     b = (arr[1]);
-//     c = (arr[2]);
-//     d = (arr[3]);
-//     g = (arr[4]);
-//     f = (arr[5]);
-//    console.log(a+"-"+b+"-"+c+"-"+d+"-"+g+"-"+f);
-//     }
+//     a = (arr[i]);
+//     result = result + a + '-';
+// }
+// console.log(result);
+
+
+// number 8
+
+// let n = 1000,
+//     b = 50;
+// for(let i = 0; i<n; i++){
+//     n = n / 2;
+//     a = i; 
+// } 
+// console.log(a);
