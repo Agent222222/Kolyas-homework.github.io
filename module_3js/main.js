@@ -34,7 +34,7 @@
 
 // number 6
 
-// var name='Kolya',
+// let name='Kolya',
 //     surname='Muzyka';
 //     width = (name.length);
 //     height = (surname.length);
