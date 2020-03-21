@@ -16,7 +16,7 @@
 
 // number 3
 
-// let num=20
+// let num=20;
 // while(num < 28){
 //     num++;
 //     console.log(num);
@@ -65,9 +65,10 @@
 // number 8
 
 // let n = 1000,
+//     a = 0,
 //     b = 50;
-// for(let i = 0; i<n; i++){
+// while(n>50){
 //     n = n / 2;
-//     a = i; 
+//     a = a + 1; 
 // } 
 // console.log(a);
