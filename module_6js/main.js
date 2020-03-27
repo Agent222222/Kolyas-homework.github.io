@@ -11,13 +11,13 @@
 //   const hello1 = function(a){
 //     return(a);
 // };
-// console.log(a + n);
+// console.log(a + name);
 
 // number 3
 
 // function mul(n, m){
 //  return(
-//      console.log(n + m, n * m, n - m);
+//      console.log(n + m, n * m, n - m)
 //  )
 // }
 // mul (6, 4);
@@ -80,5 +80,3 @@
 //         }
 // }
 // let result = addN(5);
-
-console.log(Math.floor(Math.random() * (5 - 1) + 1));

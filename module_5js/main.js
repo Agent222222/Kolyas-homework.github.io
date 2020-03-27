@@ -10,14 +10,14 @@
 // let Arr1 = [1, 5, "4", "hello"];
 // Arr1.push(22);
 // for(let arr of Arr1){
-//      console.log(typeoff arr);
-// };
+//      console.log(typeof(arr));
+// }
 
 // number 3
 
 // let Arr2 = [true, 2, {}, "a", 222];
 // for(let arr of Arr2){
-//     console.log(typeoff arr);
+//     console.log(typeof(arr));
 // }
 
 // number 4
