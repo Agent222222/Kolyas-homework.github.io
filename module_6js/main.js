@@ -15,21 +15,21 @@
 
 // number 3
 
-// function mul(n, m){
-//  return(
-//      console.log(n + m, n * m, n - m)
-//  )
-// }
-// mul (6, 4);
+function mul(n, m){
+ return(
+     console.log(n + m, n * m, n - m)
+ )
+}
+mul (6, 4);
 
 // number 4
 
-// function repeat(str, n){
+// function repeat(str =' ', n = 2){
 //  for(let i = 0; i<n; i++){
-//     console.log(str[i]); 
+//     console.log(str); 
 //  }
 // }
-// repeat ([1, 2, 3], 2);
+// repeat ("aaa");
 
 // number 5
 
