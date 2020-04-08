@@ -15,12 +15,12 @@
 
 // number 3
 
-function mul(n, m){
- return(
-     console.log(n + m, n * m, n - m)
- )
-}
-mul (6, 4);
+// function mul(n, m){
+//  return(
+//      console.log(n + m, n * m, n - m)
+//  );
+// }
+// mul (6, 4);
 
 // number 4
 
