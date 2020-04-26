@@ -48,12 +48,12 @@
 
 // number 8
 
-// let check = document.querySelectorAll(".checkbox");
-// for(let i = 0; i<check.length; i++){
-//    if(check[i].hasAttribute('checked')){
-//       check[i].removeAttribute('checked'); 
-//    }
-//    else{
-//       check[i].setAttribute('checked', "");
-//    }
-// }
+let check = document.querySelectorAll(".checkbox");
+for(let i = 0; i<check.length; i++){
+   if(check[i].hasAttribute('checked')){
+      check[i].removeAttribute('checked'); 
+   }
+   else{
+      check[i].setAttribute('checked', "");
+   }
+}
