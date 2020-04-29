@@ -22,15 +22,12 @@
 // number 3
 
 // const numbers = {
-//     duo:0,
+//     peper: function (a, b) {
+//        console.log(a + b);   
+//     }, 
 // };
-// function peper(a, b){
-//     let d = a + b;
-//     numbers.duo = d;
-//   console.log(numbers);
-// }
-// peper(4, 5);
-
+// numbers.peper(4, 5);
+// console.log(numbers);
 
 // number 4
 
@@ -67,6 +64,4 @@
 //     hr: true,
 // };
 // const entries = Object.entries(cafe);
-// // z
-
 // console.log((entries[1][1])*(entries[2][1]));

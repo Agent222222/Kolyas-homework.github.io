@@ -54,7 +54,6 @@
 //     loadFunc();
 // });
 
-
 // number 7
 
 // let img = document.querySelector(".shavuha");
