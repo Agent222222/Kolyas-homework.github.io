@@ -51,7 +51,9 @@
 
 // number 6
 
-let inpt = document.querySelectorAll('.ch');
-
+// let inpt = document.querySelectorAll('.ch');
+// inpt.forEach((item, i) =>{
+//           inpt[i].setAttribute('checked', "");
+//     });
 
    
