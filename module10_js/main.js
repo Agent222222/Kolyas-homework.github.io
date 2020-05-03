@@ -38,15 +38,10 @@
 
 // number 5
 
-// const blocks = document.querySelectorAll('.checkbox-block-ch'),
-//       dblock = document.querySelectorAll('.checkbox-block');
-//      blocks.forEach((item, i) =>
+// const block = document.querySelectorAll('.block');
+//      block.forEach((item, i) =>
 //      item.addEventListener('click', function(){
-//          console.log(item)
-//     })); 
-//     dblock.forEach((item, i) =>
-//      item.addEventListener('click', function(){
-//          console.log(item)
+//          console.log(item);
 //     })); 
 
 // number 6
