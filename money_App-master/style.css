@@ -1,3 +1,19 @@
+body{
+  height: 100%;
+}
+
+html{
+  height: 100%;
+}
+html, body
+
+{
+
+margin: 0;
+
+padding: 0;
+
+}
 @font-face {
   font-family: "SourceSansPro-Bold";
   src: url("./fonts//SourceSansPro-Bold.otf");
@@ -37,7 +53,14 @@ header,
 main,
 footer {
   width: 1443px;
-  margin: 0 auto;
+  margin: 0px auto;
+  padding: 0px;
+}
+
+footer{
+  display: flex;
+
+  /* position: fixed; */
 }
 
 /* green button #00a51c  text #7acc5b */
@@ -219,7 +242,7 @@ footer {
 
 /* розвахувати бюджет */
 .budget_calculation {
-  display: flex;
+  display: none;
   flex-flow: column;
   align-items: center;
   justify-content: center;
@@ -286,11 +309,11 @@ footer {
 
 /* перелік додаткових витрат */
 .form {
-  position: absolute; /* Sit on top of the page content */
+  position: absolute; 
   justify-content: center;
   align-items: center;
   width: 100%; /* Full width (cover the whole page) */
-  height: 204.8%; /* Full height (cover the whole page) */
+  height:100rem;/* Full height (cover the whole page) */
   top: 0;
   left: 0;
   right: 0;
@@ -312,9 +335,14 @@ footer {
   margin-top: 50%;
   border-radius: 5px;
   box-shadow: 0px 0px 26px -1px rgba(0, 0, 0, 0.61);
-  z-index: 100;
+  z-index: 10;
   background-color: #ffffff;
   box-sizing: border-box;
+}
+
+.remainder{
+  width: 160px;
+  text-align: center;
 }
 
 .form_enter-costs h4 {
@@ -327,6 +355,14 @@ footer {
 
 .hide {
   display: none;
+}
+
+.hole{
+ height: 197.4%;
+}
+
+.home{
+  display: flex;
 }
 
 .form_enter-costs div {

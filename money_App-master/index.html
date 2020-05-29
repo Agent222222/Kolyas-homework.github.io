@@ -11,7 +11,7 @@
 
 <body>
 
-    <header>
+    <header id="money">
         <a href="#" class="logo">MoneyApp</a>
     </header>
     <main>
@@ -21,9 +21,9 @@
         </section>
         <section class="s2 container">
 
-            <h3 class="s2_subTitle">Доходи</h3>
+            <h3 id="costs" class="s2_subTitle">Доходи</h3>
 
-            <ul class="s2_incomes">
+            <ul  class="s2_incomes">
                 <li class="s2_incomes-main">
                     <p>Основний дохід</p>
                     <input type="number" name="" class="num" value="" id="" placeholder="20,00">
@@ -36,7 +36,7 @@
 
             <h3 class="s2_subTitle">Витрати</h3>
 
-            <ul class="s2_costs">
+            <ul  class="s2_costs">
                 <li class="s2_costs-main">
                     <p>Основні витрати</p>
                     <!-- перелік основних витрат -->
@@ -75,21 +75,21 @@
                 <li class="budget_calculation-item">
                     <p>Загальний дохід</p>
                     <div>
-                        <p class="sum">11000 uah</p>
-                        <button>Докладніше</button>
+                        <p class="sum"></p>
+                        <button><a href="#money" >Докладніше</a></button>
                     </div>
                 </li>
                 <li class="budget_calculation-item">
                     <p>Загальні витрати</p>
                     <div>
-                        <p>310 uah</p>
-                        <button>Докладніше</button>
+                        <p class="cost"></p>
+                        <button><a href="#costs" >Докладніше</a></button>
                     </div>
                 </li>
                 <li class="budget_calculation-item">
                     <p>Залишок</p>
                     <div>
-                        <p>10690 uah</p>
+                        <p class="remainder">10690 uah</p>
                     </div>
                 </li>
             </ul>
