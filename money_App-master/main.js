@@ -130,7 +130,6 @@ okBotton.addEventListener("click", function () {
     
   });
 
-// caught.classList.add("hide")
 });  
   
 let deleted = document.querySelector(".delete");
@@ -148,15 +147,3 @@ addit.onclick = function (event) {
   let pane = event.target.closest(".spnd");
   pane.remove();
 };
-// allSite.addEventListener("click", function () {
-//   allSite.classList.add("hide");
-//   form.style.display = "flex";
-//   console.log(20)
-// });
-form.addEventListener("click", function () {
-  form.style.display = "flex";
-  form.style.width = 1092;
-  form.style.height = 478;
-  allSite.classList.remove("hide");
-  console.log(10)
-});
