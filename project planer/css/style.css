@@ -1,3 +1,130 @@
 .bb{
     widows: 10px;
 }
+
+.mogo{
+    font-size: 25px;
+    color: #000000;
+    height: 30px;
+    font-family: 'Montserrat';
+}
+
+.mogo:hover{
+    color: #FED135;
+}
+
+.Name{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+}
+.small-list{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ width: 90%;
+}
+
+.kd{
+    display: flex;
+    flex-direction: row;
+    text-align: start;
+}
+
+
+
+.sett{
+    height: 35px;
+    width: 35px;
+    margin-left: 5px;
+    background-color: #ffffff;
+}
+
+.big-one{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+}
+
+.List{
+    width: 50%;
+    justify-content: flex-end;
+}
+
+.navigation:hover{
+    color: #FED135;
+    transition: 0.3s;
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+}
+
+.drop-down-list{
+    padding: 10px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.icons{
+    height: 35px;
+    width: 35px;
+    margin-left: 5px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+}
+
+.d-d-list{
+    padding: 10px 0px 0px 0px;
+    margin: 0px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.d-d-list:hover{
+    color: #FED135;
+    transition: 0.3s;
+}
+
+.navigation{
+    display: inline-block;
+    color: #000000;
+    line-height: 1;
+    text-decoration:none;
+    padding-top: 3px;
+    cursor: pointer;
+    position:relative;
+}
+.navigation:after {
+    color: #FED135;
+    background-color: #FED135;
+    display: block;
+    content: "";
+    height: 2px;
+    width: 0%;
+    left:50%;
+    margin-top: 15px;
+    position:absolute;
+    -webkit-transition: width .3s ease-in-out;
+    -moz--transition: width .3s ease-in-out;
+    transition: width .3s ease-in-out;
+    -webkit-transform:translateX(-50%);
+    -moz-transform:translateX(-50%);
+    transform:translateX(-50%);
+}
+.navigation:hover:after,
+.navigation:focus:after {
+    width: 60%;
+} 
+li{
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+    font-size: 24px;
+    margin-left: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
