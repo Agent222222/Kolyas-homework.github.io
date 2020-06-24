@@ -99,6 +99,7 @@ display: flex;
 .small-list {
     display: flex;
     flex-direction: row;
+    justify-content: flex-end;
     width: 90%;
 
 }
@@ -107,6 +108,7 @@ display: flex;
     display: flex;
     flex-direction: row;
     text-align: start;
+    transition: 0.3s;
 }
 
 .inst{
@@ -170,14 +172,34 @@ font-size: 28px;
     border: 1px solid #FED135;
 }
 
+main{
+    text-align: center;
+}
+
+.add{
+    margin-top: 60px;
+    width: 175px;
+    height: 45px;
+    background: #FED135;
+    font-weight: bolder;
+    border-radius: 10px;
+    
+}
+
 .list {
     display: flex;
     flex-direction: column;
+    align-items: flex-end;
 }
+
+.kd:hover ~ .drop-down-list {
+    display: flex;
+    transition: 0.3s;
+  }
 
 .drop-down-list {
     padding: 10px 0px 0px 0px;
-    display: flex;
+    display: none;
     flex-direction: column;
 }
 .data{
