@@ -25,4 +25,21 @@ container.onclick = function(event) {
     let pane = event.target.closest('#card');
     pane.remove();
   };
-    
+  let date = new Date();
+
+  let options = {
+    year: 'numeric',
+    month: 'numeric',
+    day: 'numeric',
+  };
+let  number = date.toLocaleString("en-US", options),
+     day = document.querySelector(".today");
+
+     window.onload = function(){
+         (function(){
+             let time = date.getHours()+':'+date.getMinutes()+':'+date.getSeconds();
+             document.querySelector('.clock_input')[0].innerHTML = time;
+             window.setTimeout(arguments.callee, 1000);
+         })();
+     };
+     
