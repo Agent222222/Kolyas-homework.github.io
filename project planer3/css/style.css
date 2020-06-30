@@ -40,7 +40,7 @@
     height: 20px;
     border-radius: 22px;
     outline: none;
-    /* display: none; */
+    display: none;
 }
 #rarity1,
 #rarity2{
@@ -91,6 +91,11 @@ font-weight: bolder;
 .opend_window{
     display: none;
 }
+
+.opend_window:hover{
+    display: block;
+}
+
 .or{
     margin-top: 20px;
 }
