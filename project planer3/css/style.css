@@ -25,6 +25,7 @@
     position:relative;
     border-radius: 50%;
     outline: none;
+    
 }
 .clock_btn img{
     position:absolute;
@@ -33,14 +34,15 @@
 .description{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
 }
 .clock_input{
-    width: 40px;
+    width: 68px;
     height: 20px;
-    border-radius: 22px;
-    outline: none;
+    background: transparent;
     display: none;
+    outline: none;
+    margin-top: 15px;
 }
 #rarity1,
 #rarity2{
@@ -93,6 +95,7 @@ font-weight: bolder;
     margin-top: 20px;
 }
 .down{
+    width: 350px;
     font-size: 18px;
     padding-left: 15px;
     background-color: transparent;
@@ -105,6 +108,7 @@ font-weight: bolder;
     background-color: transparent;
     outline: none;
     border: none;
+    width: 300px;
 }
 
 .up{
@@ -134,7 +138,8 @@ font-weight: bolder;
 .clock{
     display: flex;
     justify-content: flex-end;
-    align-items: flex-start;
+    align-items: center;
+    flex-direction: column-reverse;
 }
 .mark_btn{
     display: flex;
