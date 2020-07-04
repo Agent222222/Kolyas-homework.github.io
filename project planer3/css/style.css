@@ -59,10 +59,6 @@ height: 15px;
     border-radius: 12px;
 }
 
-.classification:focus ~ .opend_window{
-    display: block;
-}
-
 .rarity{
     display: flex;
     flex-direction: row;
@@ -92,24 +88,31 @@ font-weight: bolder;
     display: none;
 }
 
-.opend_window:hover{
-    display: block;
-}
 
 .or{
     margin-top: 20px;
 }
 .down{
+    font-size: 18px;
+    padding-left: 15px;
     background-color: transparent;
     outline: none;
     border: none;
 }
+
+
+.down-2{
+    background-color: transparent;
+    outline: none;
+    border: none;
+}
+
 .up{
     background-color: transparent;
     outline: none;
     border: none;
 }
-#card{
+.card{
     width: 400px;
     background: linear-gradient(top, rgba(0,0,0,.05), rgba(0,0,0,.25));
     background-color: #FFFD75;
