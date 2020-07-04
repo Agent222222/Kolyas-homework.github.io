@@ -28,15 +28,27 @@ clasific.forEach(function (item) {
     secCards = document.querySelector(".secondly");
 addcart.addEventListener("click", function(){   
 let sectionFormRef = document.querySelectorAll('.rarity');
-// let formRef = document.querySelectorAll('.card');
 sectionFormRef.forEach(function(item){
     item.addEventListener('input', event => {
     if (event.target.checked) {
-       event.target.form.classList.add(`mainCards${event.target.value}`);
+      if(event.target.form.classList.contains("mainCards1")){
+          event.target.form.classList.remove("mainCards1");
+          event.target.form.classList.add(`mainCards${event.target.value}`);
+          localStorage.setItem('name',cards);
+      }
+      else{
+        if(event.target.form.classList.contains("mainCards2")){
+          event.target.form.classList.remove("mainCards2");
+          event.target.form.classList.add(`mainCards${event.target.value}`);
+          localStorage.setItem('name',cards);
+      }else{console.log( event.target.form);
+        event.target.form.classList.add(`mainCards${event.target.value}`);
+          localStorage.setItem('name',cards);
+      }}
+       
     }
- })  })
-     
-
+ })  
+})
 });
 mainCards.addEventListener("click", function(){
 let  cardsSec = document.querySelectorAll(".mainCards2"); 
@@ -72,6 +84,19 @@ main.addEventListener("click", function(){
     button.style.margin = "0px auto";
 });
 
+const bodyRef = document.getElementsByTagName('body');
+if (bodyRef) {
+  initTheme();
+};
+
+function initTheme() {
+  if (localStorage.getItem(name)) {
+    document.body.classList.add("mainCards1");
+    document.body.classList.add("mainCards2");
+    document.body.classList.add("card");
+    document.body.querySelector('.js-switch-input').checked = true;
+  };
+};
 let container = document.getElementById("container");
 container.onclick = function(event) {
     if (event.target.className != 'mark') return;
@@ -106,4 +131,15 @@ i="0" + i;
 }
 return i;
 };
-let timer = document.querySelector(".classification");
+let timer = document.querySelector(".classification"),
+    mainstr = document.querySelector(".main");
+mainstr.addEventListener("click", function(){
+let  cardsSec = document.querySelectorAll(".mainCards2"),
+     cardsMain = document.querySelectorAll(".mainCards1"); 
+cardsSec.forEach(function (item) {
+  item.style.display = "block"; 
+});
+cardsMain.forEach(function (item) {
+  item.style.display = "block"; 
+});
+})
