@@ -1,3 +1,6 @@
+body{
+    margin: 0px;
+}
 
 .label{
     font-weight: bolder;
@@ -18,32 +21,7 @@
     font-size: 18px;
 }
 
-.clock_btn{
-    background-image: url('../img/unnamed.png');
-    width: 39px;
-    height: 39px;
-    position:relative;
-    border-radius: 50%;
-    outline: none;
-    
-}
-.clock_btn img{
-    position:absolute;
-    left:0px;
-}
-.description{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-.clock_input{
-    width: 68px;
-    height: 20px;
-    background: transparent;
-    display: none;
-    outline: none;
-    margin-top: 15px;
-}
+
 #rarity1,
 #rarity2{
 width: 15px;
@@ -135,17 +113,686 @@ font-weight: bolder;
     outline: none;
 
 }
-.clock{
+
+.mark_btn{
+    display: flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    align-items: flex-end;
+}
+.inst-akkaunt-kolya{
+    margin-bottom: 10px;
+}
+.Title{ 
+    display: block;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.linee{
+    width: 100px;
+    height: 3.5px;
+    background-color: #000000;
+}
+.lineee{
+display: flex;
+    justify-content: center;
+    margin-top: 27px;
+}
+.text{
+    margin: 0px auto;
+    color: #999999;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    width: 230px;
+    margin-top: 15px;
+}
+.photo{
+    display: inline-block;
+    margin-bottom: 11px;
+}
+
+.main-text{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;;
+}
+.main-title{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0px 10px 0px;
+    font-weight: lighter;
+}
+.first{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    color: #898989;
+    font-family: 'DroidSerif';
+    font-style: italic;
+    font-family: 'Times New Roman';
+}
+.big-two{
+  display: none;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.one{
+  width: 100%;
+  padding: 0px 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-around;
+  text-align: center;
+}
+.task{
+    margin-top: 50px;
+    text-align: center;
+}
+.photo{
+    display: inline-block;
+    margin-bottom: 21px;
+}
+.tosk{
+  text-align: center;
+  width:280px;
+  margin: 0px 10px;
+}
+.img{
+    margin: 0px 16px 10px 0px;
+    height: 35px;
+    width: 35px;
+}
+
+.geth{
+    display: flex;
+}
+
+.backgr{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.sec-drop-downlist{
+    display: none;
+    flex-direction: column;
+    padding: 0px;
+}
+
+.mogo {
+    
+    font-size: 30px;
+    color: black;
+    height:
+20px;
+    font-family: 'Yellowtail', cursive;
+}
+
+.mogo:hover {
+    color: #FED135;
+}
+
+.back{
+    display: none;
+    width: 160px; 
+    flex-wrap: wrap;
+}
+
+.color{
+    width: 100px;
+    height: 35px;
+    margin: 5px 0px 5px 0px;
+}
+
+.Name {
+    
+    width: 25%;
+    display: flex;
+    justify-content: center;
+}
+
+.small-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 90%;
+
+}
+
+.kd {
+    display: flex;
+    flex-direction: row;
+    text-align: start;
+    transition: 0.3s;
+}
+
+.inst{
+    display: flex;
+    flex-direction:row;
+    justify-content: flex-end;
+    align-items: flex-start;
+    
+}
+.social{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px 40px 0px 40px ;
+}
+.HR{
+    border: 1px solid #000000;
+    margin: 0px;
+}
+
+.sett {
+    height: 35px;
+    width: 35px;
+    margin-left: 5px;
+    background-color: #ffffff;
+}
+.phone_num{
+    display: flex;
+    flex-direction:column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.numbers{
+    padding: 0px;
+}
+
+.big-one {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.contactss{
+font-weight: 600;
+font-size: 28px;
+}
+
+.List {
+    width: 60%;
+    justify-content: flex-end;
+}
+
+.navigation:hover {
+    color: #FED135;
+    transition: 0.3s;
+}
+.line1{
+    display: flex;
+    width: 100px;
+    height: 1px;
+    background-color: #FED135;
+    border: 1px solid #FED135;
+}
+
+main{
+    text-align: center;
+}
+
+.add{
+    width: 175px;
+    height: 45px;
+    background: #FED135;
+    font-weight: bolder;
+    border-radius: 10px;
+    outline: none;
+    margin-bottom: 50px;
+    
+}
+
+main{
+    width: 100%;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.kd:hover ~ .drop-down-list{
+    display: flex;
+    transition: 0.3s;
+  }
+
+.drop-down-list {
+    padding: 10px 0px 0px 0px;
+    display: none;
+    flex-direction: column;
+   
+}
+
+.red{
+    background-color: rgba(255, 99, 71, 0.7);
+}
+
+.green{
+background-color: rgba(154, 205, 50, 0.7);
+}
+
+.yellow{
+ background-color: rgba(254, 209, 54, 0.7);
+}
+
+.blue{
+ background-color: rgba(0, 206, 209, 0.7);
+}
+
+
+.drop-down-list:hover{
+    display: flex;
+}
+
+.data{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.icons {
+    height: 35px;
+    width: 35px;
+    margin-left: 5px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+}
+
+.d-d-list {
+    padding: 10px 0px 0px 0px;
+    margin: 0px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.d-d-list:hover {
+    color: #FED135;
+    transition: 0.3s;
+}
+
+.navigation {
+    display: inline-block;
+    color: #000000;
+    line-height: 1;
+    text-decoration: none;
+    padding-top: 3px;
+    margin-right: 10px;
+    cursor: pointer;
+    position: relative;
+}
+
+.navigation:after {
+    color: #FED135;
+    background-color: #FED135;
+    display: block;
+    content: "";
+    height: 2px;
+    width: 0%;
+    left: 50%;
+    margin-top: 15px;
+    position: absolute;
+    -webkit-transition: width .3s ease-in-out;
+    -moz--transition: width .3s ease-in-out;
+    transition: width .3s ease-in-out;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.navigation:hover:after,
+.navigation:focus:after {
+    width: 60%;
+}
+
+li {
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+    font-size: 24px;
+    margin-left: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.big-three{
+    justify-content: space-between;
+    display: none;
+}
+.Big-begin{
+    margin-top: 110px;
+}
+
+
+
+.Begin{
+    color: #000000;
+    padding-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.name{
+    height: 46.5px;
+    width: 405px;
+    margin-top: 35.4px;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    padding-left: 30px;
+}
+.name::-webkit-input-placeholder{
+    color: #bbbbbb; 
+    font-family: 'Montserrat';
+    font-weight: 100; 
+}
+
+#masege{
+    margin-top: 34px;
+    width: 436px;
+    height: 206px;
+    border-radius: 5px;
+    border: 2px solid #000000;
+    padding-left: 30px;
+    padding-top: 18px;
+}
+
+.form-group{
+    width: 440px;
+    margin-left: 30px;
+}
+
+#masege::-webkit-input-placeholder{
+    color: #bbbbbb;  
+    display: block;
+    align-items: flex-start; 
+    font-family: 'Montserrat', 'sans-serif';
+   
+}
+
+.section-form{
+    display: block;
+    margin-top: 40px;
+    align-items: center;
+}
+
+.section-input{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.message-botton{
+    height: 50px;
+    width: 180px;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    background-color: #fed136;
+    color: #000000;
+    font-size: 14px;
+    font-family: 'Montserrat';
+    justify-content: center;
+}
+
+.message-link{
+    text-decoration: none;
+    width: auto;
+    border: none;
+    background-color: #fed136;
+}
+
+.click{
+    align-items: center;
+    padding: 30px 0px 115px 0px;
+}
+
+.end{
+   text-align: center;
+}
+
+
+
+@media screen and (max-width: 800px){
+    .List {
+        width: 80%;
+        justify-content: flex-end;
+    }
+
+    .navigation{
+        font-size: 18px;
+    }
+
+    .d-d-list{
+        font-size: 18px;
+    }
+
+    .one{
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+      }
+
+    .tosk{
+        display: flex;
+        flex-direction: column;
+        margin: 0px auto ;
+    }
+
+    .task{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 420px){
+    .List {
+        width: 90%;
+        justify-content: flex-end;
+    }
+
+    .telegram{
+        font-size: 16px;
+        margin: 0px;
+    }
+
+    .phone{
+        font-size: 16px;
+        margin: 0px;
+    }
+
+    .inst-akkaunt-kolya{
+        font-size: 16px;
+    }
+
+    .inst-akkaunt-svyat{
+        font-size: 16px;   
+    }
+
+    .nicks{
+        padding: 0px;
+    }
+
+    .small-list{
+        display: flex;
+        flex-direction: column;
+        margin: 10px 0px 0px 0px;
+    }
+
+    .navigation{
+        display: flex;
+      text-align: end;
+      justify-content: flex-end;
+    }
+}
+.label{
+    font-weight: bolder;
+}
+.Secondly{
+    display: flex;
+    flex-direction: row;
+}
+.name{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 10px;
+    
+}
+
+.name::placeholder{
+    font-size: 18px;
+}
+
+.clock_btn{
+    background-image: url('../img/unnamed.png');
+    width: 39px;
+    height: 39px;
+    position:relative;
+    border-radius: 50%;
+    outline: none;
+    
+}
+.clock_btn img{
     display: flex;
     justify-content: flex-end;
+    position:absolute;
+    right:10px;
+}
+.description{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.clock_input{
+    width: 68px;
+    height: 20px;
+    background: transparent;
+    display: none;
+    outline: none;
+    margin-top: 15px;
+}
+#rarity1,
+#rarity2{
+width: 15px;
+height: 15px;
+
+}
+.classification{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100px;
+    height: 30px;
+    font-weight: bolder;
+    background-color: #FED135;
+    outline: none;
+    border-radius: 12px;
+}
+
+.rarity{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     align-items: center;
-    flex-direction: column-reverse;
+    margin-bottom: 10px;
+}
+.raparity{
+font-weight: bolder;
+margin-bottom: 0px;
+}
+.submit{
+    
+    margin-bottom: 20px;
+    width: 100px;
+    height: 30px;
+    background-color: #FED135;
+    outline: none;
+    font-weight: bolder;
+    border-radius: 10px;
+}
+.rope{
+    width: 400px;
+    height: 0.5px;
+    background-color: black;
+    border: 0.5px solid black;
+}
+.opend_window{
+    display: none;
+    flex-direction: column
+}
+
+
+.or{
+    margin-top: 20px;
+}
+.down{
+    width: 350px;
+    font-size: 18px;
+    padding-left: 17px;
+    display: flex;
+    text-align: left;
+    background-color: transparent;
+    outline: none;
+    border: none;
+}
+
+
+.down-2{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    width: 300px;
+}
+
+.up{
+    background-color: transparent;
+    outline: none;
+    border: none;
+}
+.card{
+    width: 400px;
+    background: linear-gradient(top, rgba(0,0,0,.05), rgba(0,0,0,.25));
+    background-color: #FFFD75;
+    border-radius: 22px;
+    margin: 20px;
+}
+
+.card_all{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+
+.mark{
+    background-color: #ff2400;
+    border-radius: 50%;
+    outline: none;
+    height: 25px;
+    margin: 10px 10px 0px 0px;
+}
+.clock{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
 }
 .mark_btn{
     display: flex;
     flex-direction:column;
     justify-content:flex-start;
     align-items: flex-end;
+    height: 40px;
 }
 .inst-akkaunt-kolya{
     margin-bottom: 10px;
