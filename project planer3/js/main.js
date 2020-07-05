@@ -1,9 +1,9 @@
-let container = document.getElementById("container");
-container.onclick = function(event) {
-    if (event.target.className != 'mark') return;
-    let pane = event.target.closest('.card');
-    pane.remove();
-  };
+// let container = document.getElementById("container");
+// container.onclick = function(event) {
+//     if (event.target.className != 'mark') return;
+//     let pane = event.target.closest('.card');
+//     pane.remove();
+//   };
   let date = new Date();
   let options = {
     year: 'numeric',
