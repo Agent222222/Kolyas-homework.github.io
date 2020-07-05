@@ -36,20 +36,11 @@ let sectionFormRef = document.querySelectorAll('.rarity');
 sectionFormRef.forEach(function(item){
     item.addEventListener('input', event => {
     if (event.target.checked) {
-      if(event.target.form.classList.contains("mainCards1")){
-          event.target.form.classList.remove("mainCards1");
-          event.target.form.classList.add(`mainCards${event.target.value}`);
-          localStorage.setItem('name',cards);
-      }
-      else{
-        if(event.target.form.classList.contains("mainCards2")){
+         event.target.form.classList.remove("mainCards1");
           event.target.form.classList.remove("mainCards2");
-          event.target.form.classList.add(`mainCards${event.target.value}`);
-          localStorage.setItem('name',cards);
-      }else{console.log( event.target.form);
         event.target.form.classList.add(`mainCards${event.target.value}`);
-          localStorage.setItem('name',cards);
-      }}
+          // localStorage.setItem('name',cards);
+      
        
     }
  })  
@@ -100,19 +91,19 @@ main.addEventListener("click", function(){
 });
 
 
-const bodyRef = document.getElementsByTagName('body');
-if (bodyRef) {
-  initTheme();
-};
+// const bodyRef = document.getElementsByTagName('body');
+// if (bodyRef) {
+//   initTheme();
+// };
 
-function initTheme() {
-  if (localStorage.getItem(name)) {
-    document.body.classList.add("mainCards1");
-    document.body.classList.add("mainCards2");
-    document.body.classList.add("card");
-    document.body.querySelector('.js-switch-input').checked = true;
-  };
-};
+// function initTheme() {
+//   if (localStorage.getItem(name)) {
+//     document.body.classList.add("mainCards1");
+//     document.body.classList.add("mainCards2");
+//     document.body.classList.add("card");
+//     document.body.querySelector('.js-switch-input').checked = true;
+//   };
+// };
 
 
 
